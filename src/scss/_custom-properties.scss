@@ -1,8 +1,30 @@
-//Colors
+//Colors Light
 
-$white: #FFFFFF ;
-$black: #302E2E;
-$orange: #FFB74B ;
-$grey-darck: #ABABAB;
-$grey: #DCDCDC;
+$white: #ffffff;
+$black: #302e2e;
+$orange: #ffb74b;
+$orange-dark: #f4ae44;
+$grey-dark: #ababab;
+$grey: #dcdcdc;
 
+$bg-light: $white;
+$font-color-light: $black;
+$color-btn-light: $orange;
+
+//Colors Dark
+
+$white-dark: #efefef;
+$blue: #96b6cd;
+$blue-dark: #5e7687;
+
+$bg-dark: $white-dark;
+$font-color-dark: $white-dark;
+$color-btn-dark: $blue;
+
+//Shadow
+
+$shadow-ligt: 0px 2px 7px rgba(0, 0, 0, 0.4);
+$shadow-dark: 0px 2px 7px rgba(0, 0, 0, 0.4);
+$tarjet-shadow-light: 0px 2px 11px rgba(0, 0, 0, 0.4);
+$tarjet-shadow-dark: 0px 2px 11px $grey-dark;
+$svg-shadow: 0px 2px 7px rgba(0, 0, 0, 0.4);
