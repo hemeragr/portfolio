@@ -15,7 +15,7 @@ function App() {
               About me
             </Link>
             <Link className="app__link" to="/work">
-              My código
+              My códigogit co
             </Link>
             <Link className="app__link" to="/contact">
               Contact
