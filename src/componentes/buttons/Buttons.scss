@@ -1,0 +1,30 @@
+@import "../../scss/global.scss";
+
+$btn-sice-nav: 60px;
+$bg-color: $orange;
+$border: 0.5px solid $orange-dark;
+$border-radius: 50%;
+$margin: 5px;
+
+.button-whit-logo {
+  all: unset;
+  width: $btn-sice-nav;
+  height: $btn-sice-nav;
+  background-color: $bg-color;
+  border-radius: $border-radius;
+  text-align: center;
+  border: $border;
+  box-shadow: $shadow-ligt;
+  margin: $margin;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.btn-ld {
+  all: unset;
+  width: $btn-sice-nav;
+  height: $btn-sice-nav;
+}

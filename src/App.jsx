@@ -1,32 +1,25 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./App.scss";
+import ButtonLigthDark from "./componentes/buttons/ButtonLigthDark";
 
 function App() {
   return (
     <>
       <div className="app">
         <header className="app_header">
-          PORTFOLIO{" "}
-          <nav>
-            <Link className="app__link" to="/">
-              Home
-            </Link>
-            <Link className="app__link" to="/about">
-              About me
-            </Link>
-            <Link className="app__link" to="/work">
-              My códigogit co
-            </Link>
-            <Link className="app__link" to="/contact">
-              Contact
-            </Link>
-            <Link className="app__link" to="/skills">
-              Skills
-            </Link>
-          </nav>
+          <div className="container-span">
+            <span className="ornament">&lt;html&gt;</span>
+            <span className="ornament">&lt;body&gt;</span>
+            <ButtonLigthDark />
+          </div>
         </header>
         <Outlet />
-        <footer>esto es mi footer</footer>
+        <footer>
+          <div className="topbar-container-span">
+            <span className="ornament">&lt;/body&gt;</span>
+            <span className="ornament">&lt;/html&gt;</span>
+          </div>
+        </footer>
       </div>
     </>
   );

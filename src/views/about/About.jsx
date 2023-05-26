@@ -1,5 +1,6 @@
 //rafce
 
+import Nav from "../../componentes/nav/Nav";
 import "./About.scss";
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
       <body>
         <section className="content-home">
           <header className="top-bar">
-            <p>&lt;body&gt;</p>
+            <Nav />
           </header>
           <main></main>
           <footer></footer>
