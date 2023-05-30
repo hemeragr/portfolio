@@ -1,4 +1,4 @@
-import "./Icons.scss";
+import "../Icons.scss";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         height="48"
         viewBox="0 -960 960 960"
         width="48"
-        fill="#302e2e"
+        fill="#ffffff"
       >
         <path d="M160-120v-480l320-240 320 240v480H560v-280H400v280H160Z" />
       </svg>

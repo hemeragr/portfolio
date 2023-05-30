@@ -1,7 +1,7 @@
+@import "./custom-properties";
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&family=Roboto:wght@100;300;400;700&display=swap");
 
 //Font family
-
 $font-indie: "Indie Flower";
 $font-raleway: "Raleway";
 $font-roboto: "Roboto";
@@ -22,6 +22,67 @@ $font-large: 30px;
 $font-medium: 24px;
 $font-small: 18px;
 
+.headers {
+  font-family: $font-roboto;
+  color: $black;
+}
 
+.header-h1 {
+  font-size: $font-xx-large;
+  font-weight: $font-bold;
+}
 
+.header-h2 {
+  font-size: $font-x-large;
+  font-weight: $font-bold;
+}
+.header-h2-ligth {
+  font-size: $font-x-large;
+  font-weight: $font-extraLight;
+}
 
+.surname {
+  font-weight: $font-extraLight;
+  font-size: $font-xx-large;
+}
+
+.subtitle {
+  font-family: $font-raleway;
+  font-weight: $font-extraLight;
+  color: $black;
+  font-size: $font-larger;
+}
+
+.paragraph {
+  font-family: $font-raleway;
+  font-weight: $font-regular;
+  color: $black;
+  font-size: $font-small;
+}
+
+.text-btn {
+  font-family: $font-raleway;
+  font-weight: $font-regular;
+  color: $white;
+  font-size: $font-large;
+}
+
+.ornament {
+  padding: 20px;
+  font-family: $font-indie;
+  font-weight: $font-regular;
+  color: $grey;
+  font-size: $font-small;
+}
+
+.header-h3 {
+  font-size: $font-large;
+  font-weight: $font-regular;
+}
+
+.text.form {
+  font-family: $font-raleway;
+  font-weight: $font-regular;
+  color: $black;
+  font-size: $font-medium;
+}

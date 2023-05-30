@@ -1,3 +1,4 @@
+import BarSkill from "../../componentes/bars-skills/BarSkill";
 import Nav from "../../componentes/nav/Nav";
 import "./Skills.scss";
 
@@ -9,7 +10,9 @@ const Skills = () => {
           <header className="top-bar">
             <Nav />
           </header>
-          <main></main>
+          <main>
+            <BarSkill />
+          </main>
           <footer></footer>
         </section>
         <section className="content-img"></section>

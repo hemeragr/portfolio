@@ -14,8 +14,21 @@ $margin: 5px;
   border-radius: $border-radius;
   text-align: center;
   border: $border;
-  box-shadow: $shadow-ligt;
+  box-shadow: $main-shadow;
   margin: $margin;
+}
+
+.button-send {
+  all: unset;
+  width: $btn-sice-nav;
+  height: 30px;
+  background-color: $bg-color;
+  border-radius: 25px;
+  text-align: center;
+  border: $border;
+  box-shadow: $main-shadow;
+  margin: $margin;
+  color: $white;
 }
 
 .icon {

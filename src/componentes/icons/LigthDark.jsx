@@ -1,4 +1,4 @@
-import "./Icons.scss";
+import "../Icons.scss";
 
 const LigthDark = () => {
   return (
