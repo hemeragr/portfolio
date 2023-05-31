@@ -1,0 +1,39 @@
+@import "../../scss/global.scss";
+
+$border: 1px solid #dcdcdc;
+
+.card {
+  box-sizing: border-box;
+  padding: 20px 50px;
+  gap: 10px;
+
+  width: 290px;
+  //height: ;
+
+  background: $white;
+  border: $border;
+  box-shadow: $tarjet-shadow-light;
+  border-radius: 40px;
+
+  &-body {
+  }
+
+  &-title {
+    font-weight: $font-regular;
+    font-size: $font-large;
+    text-align: center;
+  }
+
+  &-text {
+    border-bottom: 2px solid $black;
+  }
+}
+
+.btn {
+  background-color: $black;
+  border: $black;
+}
+
+.link {
+  all: unset;
+}
