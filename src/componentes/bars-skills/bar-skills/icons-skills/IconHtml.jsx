@@ -2,7 +2,7 @@ import "../../../Icons.scss";
 
 const IconHtml = () => {
   return (
-    <div>
+    <>
       <svg
         className="icon-html"
         fill="none"
@@ -22,7 +22,7 @@ const IconHtml = () => {
           fill="#fff"
         />
       </svg>
-    </div>
+    </>
   );
 };
 

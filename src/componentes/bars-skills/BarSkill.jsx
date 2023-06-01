@@ -1,10 +1,9 @@
-import Bar50 from "../icons/bar-skills/Bar50";
-import IconHtml from "../icons/bar-skills/icons-skills/IconHtml";
+import Bar50 from "./bar-skills/Bar50";
+import IconHtml from "./bar-skills/icons-skills/IconHtml";
 import "./BarSkills.scss";
-import Bar25 from "../icons/bar-skills/Bar75"
-import Bar75 from "../icons/bar-skills/Bar25"
-import Bar100 from "../icons/bar-skills/Bar100"
-
+import Bar25 from "./bar-skills/Bar75";
+import Bar75 from "./bar-skills/Bar25";
+import Bar100 from "./bar-skills/Bar100";
 
 const BarSkill = () => {
   return (
@@ -14,9 +13,7 @@ const BarSkill = () => {
         <Bar25 />
         <Bar50 />
         <Bar75 />
-        
         <Bar100 />
-      
       </div>
     </>
   );

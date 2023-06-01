@@ -1,4 +1,5 @@
 import Card from "../../componentes/card/Card";
+import Footer from "../../componentes/footer-rrss/Footer";
 import Nav from "../../componentes/nav/Nav";
 import "./Work.scss";
 
@@ -43,16 +44,22 @@ const Work = () => {
           <header className="top-bar">
             <Nav />
           </header>
-          <main className="content">
-            {DB.map((obj) => (
-              <div className="content-card" key={obj.work}>
-                <Card cita={obj} />
-              </div>
-            ))}
+          <main>
+            <span className="ornament">&lt;h2&gt;</span>
+            <h2 className="headers header-h2">Mi código</h2>
+            <span className="ornament">&lt;/h2&gt;</span>
+            <div className="content">
+              {DB.map((obj) => (
+                <div className="content-card" key={obj.work}>
+                  <Card cita={obj} />
+                </div>
+              ))}
+            </div>
           </main>
-          <footer></footer>
+          <footer>
+            <Footer />
+          </footer>
         </section>
-        <section className="content-img"></section>
       </body>
     </>
   );
