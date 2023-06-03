@@ -2,7 +2,7 @@ const IconReact = () => {
   return (
     <>
       <svg
-        className="icon-react"
+        className="icon-react icons"
         viewBox="175.7 78 490.6 436.9"
         xmlns="http://www.w3.org/2000/svg"
       >

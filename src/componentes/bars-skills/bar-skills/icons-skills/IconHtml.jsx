@@ -4,7 +4,7 @@ const IconHtml = () => {
   return (
     <>
       <svg
-        className="icon-html"
+        className="icon-html icons"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 124 141.53199999999998"

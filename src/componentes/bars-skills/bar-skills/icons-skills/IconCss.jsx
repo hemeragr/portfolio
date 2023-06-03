@@ -2,7 +2,7 @@ const IconCss = () => {
   return (
     <>
       <svg
-        className="icon-css"
+        className="icon-css icons"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 124 141.53"

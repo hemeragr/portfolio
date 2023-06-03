@@ -1,3 +1,12 @@
-.bar-skill {
-  width: 20px;
+.skill-bar {
+  width: 95px;
+  padding-left: 12px;
+  //background-color: rgb(246, 211, 85);
+  // border-radius: 25px;
+}
+
+.content-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

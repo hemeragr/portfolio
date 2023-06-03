@@ -2,7 +2,7 @@ const IconVisual = () => {
   return (
     <>
       <svg
-        className="icon-visual"
+        className="icon-visual icons"
         viewBox="-11.9 -2 1003.9 995.6"
         xmlns="http://www.w3.org/2000/svg"
       >

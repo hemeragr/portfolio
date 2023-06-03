@@ -2,7 +2,7 @@ const IconPhotoshop = () => {
   return (
     <>
       <svg
-        className="icon-photo"
+        className="icon-photo icons"
         viewBox="0 0 240 234"
         xmlns="http://www.w3.org/2000/svg"
       >

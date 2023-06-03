@@ -2,7 +2,7 @@ const IconId = () => {
   return (
     <>
       <svg
-        className="icon-id"
+        className="icon-id icons"
         viewBox="0 0 240 234"
         xmlns="http://www.w3.org/2000/svg"
       >

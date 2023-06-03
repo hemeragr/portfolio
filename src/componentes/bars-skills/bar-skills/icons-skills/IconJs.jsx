@@ -2,7 +2,7 @@ const IconJs = () => {
   return (
     <>
       <svg
-        className="icon-js"
+        className="icon-js icons"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 124 141.53199999999998"

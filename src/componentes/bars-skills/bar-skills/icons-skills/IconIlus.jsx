@@ -2,7 +2,7 @@ const IconIlus = () => {
   return (
     <>
       <svg
-        className="icon-illus"
+        className="icon-illus icons"
         viewBox="0 0 240 234"
         xmlns="http://www.w3.org/2000/svg"
       >

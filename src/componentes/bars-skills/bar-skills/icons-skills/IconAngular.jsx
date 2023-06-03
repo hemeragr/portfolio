@@ -2,7 +2,7 @@ const IconAngular = () => {
   return (
     <>
       <svg
-        className="icon-angular"
+        className="icon-angular icons"
         viewBox="0 0 256 272"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid"
