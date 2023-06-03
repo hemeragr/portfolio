@@ -1,0 +1,18 @@
+@import "../../scss/global.scss";
+
+.card-skills {
+  box-sizing: border-box;
+  padding: 20px 50px;
+  background-color: $grey;
+  width: 500px;
+  margin: 50px;
+
+  border: $border-tj;
+  box-shadow: $tarjet-shadow-light;
+  border-radius: 40px;
+}
+
+.card-title {
+  margin: auto;
+  border-bottom: 6px solid $black;
+}

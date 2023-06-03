@@ -7,7 +7,7 @@ const Card = ({ cita }) => {
         <div className="card-body">
           <h3 className="card-title headers">{cita.work}</h3>
           <p className="card-text paragraph">{cita.description}</p>
-          <p className="card-skills paragraph">{cita.skills_used}</p>
+          <p className=" paragraph">{cita.skills_used}</p>
           <button href="#" className="btn button-send">
             {" "}
             <a href="#" className="link">

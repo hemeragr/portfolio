@@ -22,6 +22,9 @@ import Bar50 from "../../componentes/bars-skills/bar-skills/Bar50";
 import Bar75 from "../../componentes/bars-skills/bar-skills/Bar75";
 import Bar100 from "../../componentes/bars-skills/bar-skills/Bar100";
 
+import Tarjet_txt from "../../componentes/tarjet-text/Tarjet_txt";
+import Footer from "../../componentes/footer-rrss/Footer";
+
 const Skills = () => {
   const IC = [
     {
@@ -86,24 +89,40 @@ const Skills = () => {
     },
   ];
 
+  const TX = [
+    {
+      title: "Frontend",
+      paragraph:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend elementum quam a sagittis. Proin tincidunt nisl est, vitae venenatis lorem fermentum et. Vestibulum eget consectetur orci, eget dapibus nulla. Duis condimentum nibh a laoreet consequat. Ut eu pharetra turpis. Quisque eleifend nisl sed turpis luctus elementum.",
+    },
+    {
+      title: "UX/UI",
+      paragraph:
+        "Donec maximus odio sed erat sagittis gravida. Aliquam ac mauris ut mauris blandit dictum sit amet a justo. Quisque non odio justo. Sed interdum in velit id suscipit. Donec quis libero nec nisl interdum efficitur lobortis a turpis. ",
+    },
+  ];
+
   return (
     <>
       <body>
         <section className="content-home">
-          <header className="top-bar">
-            <Nav />
-          </header>
           <main>
             <div className="title">
               <span className="ornament">&lt;h2&gt;</span>
-              <h2 className="headers header-h2">Yo, Yo misma</h2>
+              <h2 className="headers header-h2">Habilidades</h2>
               <span className="ornament">&lt;/h2&gt;</span>
             </div>
             <span className="ornament">&lt;p&gt;</span>
-              <p className="paragraph">Web Developed - UX/UI Designer</p>
-              <span className="ornament">&lt;/p&gt;</span>
+            <p className="paragraph">
+              Donec maximus odio sed erat sagittis gravida. Aliquam ac mauris ut
+              mauris blandit dictum sit amet a justo. Quisque non odio justo.
+              Sed interdum in velit id suscipit. Donec quis libero nec nisl
+              interdum efficitur lobortis a turpis.
+            </p>
+            <span className="ornament">&lt;/p&gt;</span>
 
             <div>
+              <span className="ornament">&lt;div&gt;</span>
               <div className="columns-bar">
                 {IC.map((object) => (
                   <div key={object.icon} className="content-barskills">
@@ -111,11 +130,21 @@ const Skills = () => {
                   </div>
                 ))}
               </div>
+              <span className="ornament">&lt;/div&gt;</span>
             </div>
           </main>
-          <footer></footer>
         </section>
-        <section className="content-img"></section>
+        <section className="content-cards">
+          <Nav />
+          <div className="contents">
+            {TX.map((text) => (
+              <div key={text.title} className="content-cardText">
+                <Tarjet_txt card={text} />
+              </div>
+            ))}
+          </div>
+          <Footer />
+        </section>
       </body>
     </>
   );

@@ -2,6 +2,7 @@ import Nav from "../../componentes/nav/Nav";
 import "./Contact.scss";
 import ContactSvg from "../../componentes/svg-hand/ContactSvg";
 import Svg_hi from "../../componentes/svg-hi/Svg_hi";
+import Footer from "../../componentes/footer-rrss/Footer";
 
 const Contact = () => {
   return (
@@ -50,6 +51,7 @@ const Contact = () => {
               <button className="button-send button-send">&gt;</button>
             </div>
           </form>
+          <Footer />
         </main>
         <section className="content-Nav&Img">
           <Nav />
