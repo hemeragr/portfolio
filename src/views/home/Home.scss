@@ -1,0 +1,28 @@
+.body {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.container-subtitle {
+  margin-top: 50px;
+}
+
+.content-img {
+  width: 100%;
+}
+
+.content-hi{
+    width: auto;
+    position: absolute;
+    z-index: 2;
+   margin-top: 530px;
+   margin-left: -180px;
+}
+
+.footer{
+ position: absolute;
+ margin-top: 40px;
+ margin-left: 250px;
+
+}

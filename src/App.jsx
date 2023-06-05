@@ -8,16 +8,20 @@ function App() {
       <div className="app">
         <header className="app_header">
           <div className="container-span">
-            <span className="ornament">&lt;html&gt;</span>
-            <span className="ornament">&lt;body&gt;</span>
-            <ButtonLigthDark />
+            <span className="ornament space1">&lt;html&gt;</span>
+            <br></br>
+            <span className="ornament space2">&lt;body&gt;</span>
+            <div className="content-btn-ld">
+            <ButtonLigthDark  />
+            </div>
           </div>
         </header>
         <Outlet />
-        <footer>
-          <div className="topbar-container-span">
-            <span className="ornament">&lt;/body&gt;</span>
-            <span className="ornament">&lt;/html&gt;</span>
+        <footer className="footer-app">
+          <div className="container-span">
+            <span className="ornament space2">&lt;/body&gt;</span>
+            <br></br>
+            <span className="ornament space1">&lt;/html&gt;</span>
           </div>
         </footer>
       </div>
@@ -26,4 +30,3 @@ function App() {
 }
 
 export default App;
-

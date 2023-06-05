@@ -1,10 +1,11 @@
+import "./_Svg_face.scss";
+
+
 const Svg_face = () => {
   return (
     <>
       <svg
         className="face-svg"
-        width="763"
-        height="1107"
         viewBox="0 0 763 1107"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
