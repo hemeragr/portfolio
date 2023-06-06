@@ -1,20 +1,20 @@
 @import "./scss/global.scss";
 
+.content-btn-ld {
+  cursor: pointer;
 
-
-
-
-.content-btn-ld{
-
-    display: flex;
-justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .footer-app {
   margin-top: -120px;
 }
 
-.app_header{
-    margin-bottom: -50px;
+.app_header {
+  margin-bottom: -50px;
+}
+
+.app{
+  width: 100%;
 }

@@ -9,6 +9,7 @@ $sice-icon: 40px;
 $btn-sice-ld: 40px;
 
 .button-whit-logo {
+  cursor: pointer;
   all: unset;
   width: $btn-sice-nav;
   height: $btn-sice-nav;
@@ -21,6 +22,7 @@ $btn-sice-ld: 40px;
 }
 
 .button-send {
+  cursor: pointer;
   all: unset;
   width: $btn-sice-nav;
   height: 30px;
@@ -39,8 +41,9 @@ $btn-sice-ld: 40px;
 }
 
 .btn-ld {
+  cursor: pointer;
   all: unset;
-  width:$btn-sice-ld;
-  height:$btn-sice-ld;
+  width: $btn-sice-ld;
+  height: $btn-sice-ld;
   margin-top: -40px;
 }

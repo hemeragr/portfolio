@@ -19,12 +19,14 @@ $border: 1px solid #dcdcdc;
   }
 
   &-title {
+    font-family: $font-roboto;
     font-weight: $font-regular;
     font-size: $font-large;
     text-align: center;
   }
 
   &-text {
+    font-family: $font-raleway;
     border-bottom: 2px solid $black;
   }
 }

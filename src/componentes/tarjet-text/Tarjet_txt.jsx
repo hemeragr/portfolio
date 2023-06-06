@@ -6,7 +6,7 @@ const Tarjet_txt = ({ card }) => {
       <div className="card-skills ">
         <div className="card-body">
           <h3 className="card-title">{card.title}</h3>
-          <p className="card-tx">{card.paragraph}</p>
+          <p className="card-tx paragraph">{card.paragraph}</p>
         </div>
       </div>
     </>

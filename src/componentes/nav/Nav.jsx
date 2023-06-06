@@ -8,27 +8,23 @@ import ButtonIconWork from "../buttons/ButtonIconWork";
 
 const Nav = () => {
   return (
-    <>
-      <header className="app_header">
-        <nav>
-          <Link className="app__link" to="/">
-            <ButtonIconHome />
-          </Link>
-          <Link className="app__link" to="/about">
-            <ButtonIconAbout />
-          </Link>
-          <Link className="app__link" to="/work">
-            <ButtonIconWork />
-          </Link>
-          <Link className="app__link" to="/contact">
-            <ButtonIconContact />
-          </Link>
-          <Link className="app__link" to="/skills">
-            <ButtonIconSkills />
-          </Link>
-        </nav>
-      </header>
-    </>
+    <nav>
+      <Link className="app__link" to="/">
+        <ButtonIconHome />
+      </Link>
+      <Link className="app__link" to="/about">
+        <ButtonIconAbout />
+      </Link>
+      <Link className="app__link" to="/work">
+        <ButtonIconWork />
+      </Link>
+      <Link className="app__link" to="/contact">
+        <ButtonIconContact />
+      </Link>
+      <Link className="app__link" to="/skills">
+        <ButtonIconSkills />
+      </Link>
+    </nav>
   );
 };
 
