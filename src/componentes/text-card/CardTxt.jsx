@@ -1,6 +1,6 @@
-import "./Tarjet-txt.scss";
+import "./CardTxt.scss";
 
-const Tarjet_txt = ({ card }) => {
+const CardTxt = ({ card }) => {
   return (
     <>
       <div className="card-skills ">
@@ -13,4 +13,4 @@ const Tarjet_txt = ({ card }) => {
   );
 };
 
-export default Tarjet_txt;
+export default CardTxt;

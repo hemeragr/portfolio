@@ -1,6 +1,6 @@
-import "./Svg_hi.scss";
+import "./SvgHi.scss";
 
-const svg_hi = () => {
+const svgHi = () => {
   return (
     <>
       <svg
@@ -18,4 +18,4 @@ const svg_hi = () => {
   );
 };
 
-export default svg_hi;
+export default svgHi;

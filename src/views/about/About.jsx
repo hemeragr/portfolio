@@ -1,7 +1,7 @@
 //rafce
-import Svg_skills from "../../componentes/svg-img-skills/Svg_skills";
 import Nav from "../../componentes/nav/Nav";
 import "./About.scss";
+import svg from "../../assets/aboutImg.svg";
 
 const About = () => {
   return (
@@ -43,7 +43,11 @@ const About = () => {
         </main>
         <section className="content-Nav&Img">
           <Nav />
-          <Svg_skills />
+          <img
+            className="Svg-about"
+            src={svg}
+            alt="Ilustracion de barias cosas a linea haciendo referencia a los gustos"
+          />
         </section>
       </body>
     </>

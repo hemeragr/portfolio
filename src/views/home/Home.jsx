@@ -1,7 +1,7 @@
 import "./Home.scss";
-import Svg_hi from "../../componentes/svg-hi/Svg_hi";
+import Svg_hi from "../../componentes/svg-hi/SvgHi";
 ("../../componentes/svg-hi/Svg_hi");
-import Svg_face from "../../componentes/svg-face/Svg_face";
+import face from "../../assets/face.svg";
 import Nav from "../../componentes/nav/Nav";
 const Home = () => {
   return (
@@ -26,8 +26,14 @@ const Home = () => {
           </footer>
         </section>
         <section className="content-img">
-          <div className="content-hi"><Svg_hi /></div>
-          <Svg_face />
+          <div className="content-hi">
+            <Svg_hi />
+          </div>
+          <img
+            className="Svg-face"
+            src={face}
+            alt="Ilustracion a linea de una cara"
+          />
         </section>
       </body>
     </>

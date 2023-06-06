@@ -1,29 +1,30 @@
-import { Link } from "react-router-dom";
 import "./_Nav.scss";
-import ButtonIconAbout from "../buttons/ButtonIconAbout";
-import ButtonIconContact from "../buttons/ButtonIconContact";
-import ButtonIconHome from "../buttons/ButtonIconHome";
-import ButtonIconSkills from "../buttons/ButtonIconSkills";
-import ButtonIconWork from "../buttons/ButtonIconWork";
+import "../buttons/Buttons.scss";
+import NavButton from "./NavButton";
+import Skills from "../icons/Skills";
+import Contact from "../icons/Contact";
+import Home from "../icons/Home";
+import About from "../icons/About";
+import Work from "../icons/MyCode";
 
 const Nav = () => {
   return (
     <nav>
-      <Link className="app__link" to="/">
-        <ButtonIconHome />
-      </Link>
-      <Link className="app__link" to="/about">
-        <ButtonIconAbout />
-      </Link>
-      <Link className="app__link" to="/work">
-        <ButtonIconWork />
-      </Link>
-      <Link className="app__link" to="/contact">
-        <ButtonIconContact />
-      </Link>
-      <Link className="app__link" to="/skills">
-        <ButtonIconSkills />
-      </Link>
+      <NavButton  to="/">
+        <Home />
+      </NavButton>
+      <NavButton  to="/about">
+        <About />
+      </NavButton>
+      <NavButton  to="/work">
+        <Work />
+      </NavButton>
+      <NavButton  to="/contact">
+        <Contact />
+      </NavButton>
+      <NavButton  to="/skills">
+        <Skills        />
+      </NavButton>
     </nav>
   );
 };

@@ -7,10 +7,11 @@ $border-radius: 50%;
 $margin: 5px;
 $sice-icon: 40px;
 $btn-sice-ld: 40px;
+$transition: background-color 0.3s ease;
 
 .button-whit-logo {
+  display: inline-block;
   cursor: pointer;
-  all: unset;
   width: $btn-sice-nav;
   height: $btn-sice-nav;
   background-color: $bg-color;
@@ -19,6 +20,11 @@ $btn-sice-ld: 40px;
   border: $border;
   box-shadow: $main-shadow;
   margin: $margin;
+  transition: $transition;
+}
+
+.button-whit-logo:hover {
+  background-color: $hover-btn;
 }
 
 .button-send {

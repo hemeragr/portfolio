@@ -1,29 +1,14 @@
 .columns-bar {
-    
- columns: 4;
+  columns: 4;
 }
 
 .content-cards {
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 10px 116px;
-gap: 95px;
-
-width: 819px;
-height: 977px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.content-cardText{
-    display: flex;
-    
+.content-cardText {
+  display: flex;
 }

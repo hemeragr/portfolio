@@ -1,9 +1,9 @@
 import Nav from "../../componentes/nav/Nav";
 import "./Contact.scss";
-import ContactSvg from "../../componentes/svg-hand/ContactSvg";
-import Svg_hi from "../../componentes/svg-hi/Svg_hi";
+import Svg_hi from "../../componentes/svg-hi/SvgHi";
 import Footer from "../../componentes/footer-rrss/Footer";
 import Form from "../../componentes/form/Form";
+import hand from "../../assets/hand.svg";
 
 const Contact = () => {
   return (
@@ -42,10 +42,11 @@ const Contact = () => {
           <Svg_hi />
         </div>
 
-        <div className="hand-svg-contact">
-          {" "}
-          <ContactSvg />
-        </div>
+        <img
+          className="Svg-hand"
+          src={hand}
+          alt="Ilustracion a linea de una mano haciendo el simbolo de la paz como saludo"
+        />
       </section>
     </body>
   );
