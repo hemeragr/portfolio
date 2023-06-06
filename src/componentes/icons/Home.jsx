@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
       <svg
-        className="icon-home"
+        className="icon"
         xmlns="http://www.w3.org/2000/svg"
         height="48"
         viewBox="0 -960 960 960"

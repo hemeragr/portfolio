@@ -4,7 +4,7 @@ const MyCode = () => {
   return (
     <>
       <svg
-        className="icon-code"
+        className="icon"
         viewBox="0 0 766 635"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

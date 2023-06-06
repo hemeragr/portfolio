@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <svg
-        className="icon-contact"
+        className="icon"
         viewBox="0 0 688 1052"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

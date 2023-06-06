@@ -9,7 +9,7 @@ import Work from "../icons/MyCode";
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className="nav">
       <NavButton  to="/">
         <Home />
       </NavButton>

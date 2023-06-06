@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <>
       <svg
-        className="icon-skills"
+        className="icon"
         viewBox="0 0 793 754"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
