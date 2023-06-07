@@ -34,7 +34,6 @@ const Contact = () => {
       </main>
       <section className="content-NavImg">
         <div className="nav-contact">
-          {" "}
           <Nav />
         </div>
         <div className="hi-contact">
@@ -42,11 +41,15 @@ const Contact = () => {
           <Svg_hi />
         </div>
 
-        <img
-          className="Svg-hand"
-          src={hand}
-          alt="Ilustracion a linea de una mano haciendo el simbolo de la paz como saludo"
-        />
+       
+          <div className="img-container-contact">
+            <img
+              className="Svg-contact"
+              src={hand}
+              alt="Ilustracion a linea de una mano haciendo el simbolo de la paz como saludo"
+            />
+          </div>
+      
       </section>
     </body>
   );

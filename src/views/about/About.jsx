@@ -6,12 +6,14 @@ import svg from "../../assets/aboutImg.svg";
 const About = () => {
   return (
     <>
-      <body>
-        <main className="content-text">
+      <body className="body-about">
+        <main className="content-text-about">
           <div className="title">
             <span className="ornament">&lt;h2&gt;</span>
             <h2 className="headers header-h2">Yo, Yo misma</h2>
-            <h2 className="headers header-h2-ligth">y mis cosas</h2>
+            <h2 className="headers header-h2-ligth  secondtitle">
+              y mis cosas
+            </h2>
             <span className="ornament">&lt;/h2&gt;</span>
           </div>
           <div className="container-paragraph">
@@ -41,13 +43,19 @@ const About = () => {
             <span className="ornament">&lt;/p&gt;</span>
           </div>
         </main>
-        <section className="content-Nav&Img">
-          <Nav />
-          <img
-            className="Svg-about"
-            src={svg}
-            alt="Ilustracion de barias cosas a linea haciendo referencia a los gustos"
-          />
+        <section className="content-img-about">
+          <div className="content-nav">
+            <Nav />
+          </div>
+          <div className="content-svg-about">
+          <div className="img-container-about">
+            <img
+              className="Svg-about"
+              src={svg}
+              alt="Ilustracion de barias cosas a linea haciendo referencia a los gustos"
+            />
+          </div>
+          </div>
         </section>
       </body>
     </>
