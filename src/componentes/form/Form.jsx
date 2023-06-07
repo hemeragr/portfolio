@@ -34,7 +34,7 @@ function ContactForm() {
       </div>
 
       <div className="camp">
-        <label htmlFor="email">Correo electrónico:</label>
+        <label htmlFor="email">Correo electrónico</label>
         <input
           type="email"
           id="email"

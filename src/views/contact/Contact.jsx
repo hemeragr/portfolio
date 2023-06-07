@@ -17,10 +17,9 @@ const Contact = () => {
         <div className="container-paragraph">
           <span className="ornament">&lt;p&gt;</span>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            condimentum blandit magna. Aenean aliquam hendrerit sem at cursus.
-            Donec erat libero, vehicula a neque ut, sodales varius massa. Fusce
-            a ante ac nibh euismod ornare.
+            ¡Esto es un poquito de mí! Si quieres llevar tus proyectos al
+            siguiente nivel, ¡estoy aquí para ayudarte! No dudes en contactarme
+            y juntos haremos realidad tus ideas. ¡Espero saber de ti pronto!
           </p>
           <span className="ornament">&lt;/p&gt;</span>
         </div>
@@ -41,15 +40,13 @@ const Contact = () => {
           <Svg_hi />
         </div>
 
-       
-          <div className="img-container-contact">
-            <img
-              className="Svg-contact"
-              src={hand}
-              alt="Ilustracion a linea de una mano haciendo el simbolo de la paz como saludo"
-            />
-          </div>
-      
+        <div className="img-container-contact">
+          <img
+            className="Svg-contact"
+            src={hand}
+            alt="Ilustracion a linea de una mano haciendo el simbolo de la paz como saludo"
+          />
+        </div>
       </section>
     </body>
   );
