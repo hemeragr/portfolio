@@ -1,4 +1,3 @@
-import Nav from "../../componentes/nav/Nav";
 import "./Contact.scss";
 import Svg_hi from "../../componentes/svg-hi/SvgHi";
 import Footer from "../../componentes/footer-rrss/Footer";
@@ -32,9 +31,6 @@ const Contact = () => {
         </div>
       </main>
       <section className="content-NavImg-contact">
-        <div className="nav-contact">
-          <Nav />
-        </div>
         <div className="hi-contact">
           {" "}
           <Svg_hi />

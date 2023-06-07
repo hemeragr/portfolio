@@ -2,9 +2,6 @@
 
 .content-btn-ld {
   cursor: pointer;
-
-  display: flex;
-  justify-content: center;
 }
 
 .footer-app {
@@ -13,10 +10,11 @@
 
 .app_header {
   display: flex;
-  gap: 20;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: -50px;
 }
 
-.app{
+.app {
   width: 100%;
 }

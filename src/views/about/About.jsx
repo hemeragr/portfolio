@@ -1,5 +1,4 @@
 //rafce
-import Nav from "../../componentes/nav/Nav";
 import "./About.scss";
 import svg from "../../assets/aboutImg.svg";
 
@@ -54,9 +53,6 @@ const About = () => {
           </div>
         </main>
         <section className="content-img-about">
-          <div className="content-nav">
-            <Nav />
-          </div>
           <div className="content-svg-about">
             <div className="img-container-about">
               <img

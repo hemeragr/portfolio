@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
 import GitHub from "./rrss/Github";
 import CodePen from "./rrss/CodePen";
-import Instagram from "./rrss/Instagram";
 import Linkedin from "./rrss/Linkedin";
-import Mail from "./rrss/Mail";
-import Twitter from "./rrss/Twitter";
+
 import "./Footer.scss";
 
 const Footer = () => {
   return (
     <div>
-      <nav className="nav">
+      <nav className="nav-footer">
         <span className="content-app">
           <Link className="app__link" to="https://github.com/hemeragr">
             <GitHub className="app-icon" />

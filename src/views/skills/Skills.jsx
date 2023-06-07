@@ -1,5 +1,4 @@
 import BarSkill from "../../componentes/component-bar/BarSkill";
-import Nav from "../../componentes/nav/Nav";
 import "./Skills.scss";
 import {
   IconAngular,
@@ -139,8 +138,6 @@ const Skills = () => {
           </main>
         </section>
         <section className="content-cards">
-      
-        <Nav />
           <div className="contents">
             {TX.map((text) => (
               <div key={text.title} className="content-cardText">

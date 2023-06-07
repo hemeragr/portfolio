@@ -1,6 +1,5 @@
 import Card from "../../componentes/card/Card";
 import Footer from "../../componentes/footer-rrss/Footer";
-import Nav from "../../componentes/nav/Nav";
 import "./Work.scss";
 import "./index.js";
 
@@ -42,9 +41,6 @@ const Work = () => {
     <>
       <body>
         <section className="content-home">
-          <header className="top-bar">
-            <Nav />
-          </header>
           <main>
             <span className="ornament">&lt;h2&gt;</span>
             <h2 className="headers header-h2">Mi código</h2>

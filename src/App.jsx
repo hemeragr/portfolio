@@ -1,10 +1,13 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import "./App.scss";
 import ButtonLigthDark from "./componentes/buttons/ButtonLigthDark";
-import Nav from "./componentes/nav/Nav"
-
+import Nav from "./componentes/nav/Nav";
 
 function App() {
+  const location = useLocation();
+
+  const isHome = location.pathname === "/";
+
   return (
     <div className="app">
       <header className="app_header">
@@ -12,14 +15,11 @@ function App() {
           <span className="ornament space1">&lt;html&gt;</span>
           <br></br>
           <span className="ornament space2">&lt;body&gt;</span>
-          <div className="content-btn-ld">
-            <ButtonLigthDark />
-          </div>
-          
         </div>
-        <div className="content-nav-app">
-            <Nav />
-          </div>
+        <div className="content-btn-ld">
+          <ButtonLigthDark />
+        </div>
+        <div className="content-nav-app">{!isHome && <Nav />}</div>
       </header>
       <Outlet />
       <footer className="footer-app">
