@@ -32,7 +32,7 @@ const Contact = () => {
           <Footer />
         </div>
       </main>
-      <section className="content-NavImg">
+      <section className="content-NavImg-contact">
         <div className="nav-contact">
           <Nav />
         </div>

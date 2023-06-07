@@ -5,7 +5,6 @@
   font-family: $font-raleway;
 }
 
-$form-bg-color: $white;
 $form-text-color: $black;
 $form-border-color: $grey;
 $form-input-height: 40px;
@@ -16,7 +15,6 @@ $form-button-padding: 10px 20px;
 $form-button-border-radius: 4px;
 
 .form-contact {
-  background-color: $form-bg-color;
   padding: 20px;
   max-width: 700px;
   padding-left: 50px;
@@ -44,6 +42,7 @@ textarea {
   border-left: 2px solid $grey-dark;
   border-radius: $form-button-border-radius;
   color: $form-text-color;
+  background-color: transparent;
 }
 
 textarea {
