@@ -1,6 +1,8 @@
 import { Outlet } from "react-router-dom";
 import "./App.scss";
 import ButtonLigthDark from "./componentes/buttons/ButtonLigthDark";
+import Nav from "./componentes/nav/Nav"
+
 
 function App() {
   return (
@@ -13,7 +15,11 @@ function App() {
           <div className="content-btn-ld">
             <ButtonLigthDark />
           </div>
+          
         </div>
+        <div className="content-nav-app">
+            <Nav />
+          </div>
       </header>
       <Outlet />
       <footer className="footer-app">
@@ -26,6 +32,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;
