@@ -1,44 +1,67 @@
-.body-about {
-  margin-top: 100px;
-  margin-bottom: 140px;
-}
+@import "../../scss/global.scss";
+/* Estilos generales */
 
-.container-paragraph {
-  margin-top: 20px;
+.body-about {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .content-text-about {
   width: 100%;
+  max-width: 800px;
 }
 
-.content-hi {
-  width: 11%;
-  position: fixed;
-  z-index: 2;
-  top: 55%;
-  left: 50%;
+.ornament {
+  color: $grey;
 }
 
-.content-nav {
-  width: 90%;
-  margin-top: -140px;
-  display: flex;
-  justify-content: flex-end;
+.container-paragraph {
+  width: 100%;
+  margin-top: 20px;
 }
 
-.content-svg-about {
-  width: 150%;
-  height: 100%;
-  float: right;
-  display: flex;
+.text-salute {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.salute {
+  font-size: 20px;
+  font-weight: bold;
+  color: $black;
+}
+
+.stress {
+  color: $orange;
+  font-weight: bold;
+}
+
+.margin {
+  margin-top: -20px;
+}
+
+.text-about {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.content-img-about {
+  width: 100%;
   justify-content: center;
   align-items: center;
+  margin-bottom: -150px;
 }
 
 .img-container-about {
   width: 100%;
   max-width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,9 +69,64 @@
 }
 
 .Svg-about {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
+  max-width: 95%;
   height: auto;
-  z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .content-text-about {
+    padding: 0 10px;
+  }
+
+  .headers {
+    font-size: 20px;
+  }
+
+  .header-h2-ligth {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .text-salute {
+    font-size: 18px;
+  }
+
+  .salute {
+    font-size: 18px;
+  }
+
+  .text-about {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headers {
+    font-size: 18px;
+  }
+
+  .header-h2-ligth {
+    font-size: 16px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .text-salute {
+    font-size: 16px;
+  }
+
+  .salute {
+    font-size: 16px;
+  }
+
+  .text-about {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

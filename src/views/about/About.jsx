@@ -1,6 +1,7 @@
 //rafce
 import "./About.scss";
 import svg from "../../assets/aboutImg.svg";
+import FooterRRSS from "../../componentes/footer-rrss/FooterRRSS";
 
 const About = () => {
   return (
@@ -17,51 +18,115 @@ const About = () => {
           </div>
           <div className="container-paragraph">
             <span className="ornament">&lt;p&gt;</span>
-            <p className="paragraph">
-              Hey, hola, hola! 👋 Me llamo Hemera,<br></br> Este es el código
-              que mueve mi mundo, con él me podréis entender.<br></br> Después
-              de graduarme en Bellas Artes, he logrado encontrar un equilibrio
-              perfecto entre el diseño y el arte, creando una simbiosis
-              armoniosa. Gracias a esta combinación, tengo la habilidad de
-              llevar cualquier proyecto al mundo digital de forma eficiente y
-              efectiva. ¡Es como magia! <br></br>Soy una persona apasionada del
-              diseño que encuentra en cada proyecto una oportunidad para crear
-              experiencias únicas y cautivadoras. Amo la forma en que el diseño
-              web fusiona la creatividad con la funcionalidad, permitiéndome dar
-              vida a ideas y conectar con personas en todo el mundo.<br></br>{" "}
-              Cuando no estoy inmersa en el código, mi corazón se llena de
-              música. Esta me transporta a un lugar donde puedo expresar mis
-              emociones y soñar con mis próximos proyectos. También me encanta
-              experimentar con sabores y texturas, mancharme las manos creando
-              platos deliciosos que deleitan el paladar. Además, a través de
-              trazos y colores, puedo plasmar mis ideas y emociones en papel,
-              creando ilustraciones que transmiten un mensaje sin necesidad de
-              palabras.<br></br>
-              Mis amigos son una parte esencial en mi vida. Junto a ellos,
-              encuentro la inspiración y el apoyo necesario para continuar
-              persiguiendo mis sueños. Además, en los momentos más difíciles,
-              son mi vía de escape.<br></br> Cuando necesito un tiempo para
-              relajarme y sumergirme en nuevas historias, nada se compara con un
-              buen libro o una buena partida a la Nintendo Switch. Esto me
-              permite escapar a mundos fascinantes, inspirarme de nuevas ideas y
-              descubrir personajes memorables. Cada aventura es un portal hacia
-              la imaginación y el conocimiento. <br></br>Aquí tienes una pequeña
-              muestra de quién soy. Si deseas descubrir más, sigue navegando.
-              ¡Bienvenidos a mi mundo!
+            <p className="paragraph text-about">
+              <p className="text-salute ">
+                <span className="salute"> ¡Hey, hola, hola!</span>{" "}
+                <span role="img" aria-label="Saludo">
+                  👋
+                </span>
+                Me llamo <span className="stress"> Hemera</span>,{" "}
+              </p>
+              <p className="margin">
+                Este es el código que mueve mi mundo, con él me podréis
+                entender.
+              </p>
+              <p className="margin">
+                {" "}
+                Después de graduarme en{" "}
+                <span className="stress">Bellas Artes</span>, he logrado
+                encontrar un equilibrio perfecto entre el diseño y el arte,
+                creando una simbiosis armoniosa. Gracias a esta combinación,
+                tengo la habilidad de llevar cualquier proyecto al mundo digital
+                de forma eficiente y efectiva. ¡Es como magia!{" "}
+                <span role="img" aria-label="Magia">
+                  ✨
+                </span>
+              </p>
+              <p className="margin">
+                Soy una persona apasionada del diseño que encuentra en cada
+                proyecto una oportunidad para crear{" "}
+                <span className="stress">
+                  experiencias únicas y cautivadoras
+                </span>
+                . Amo la forma en que el diseño web fusiona la creatividad con
+                la funcionalidad, permitiéndome dar vida a ideas y conectar con
+                personas en todo el mundo.
+              </p>
+              <p className="margin">
+                {" "}
+                Cuando no estoy inmersa en el código, mi corazón se llena de
+                <span className="stress"> música</span>.
+                <span role="img" aria-label="Notas musicales">
+                  🎵
+                </span>{" "}
+                Esta me transporta a un lugar donde puedo expresar mis emociones
+                y soñar con mis próximos proyectos. También me encanta
+                experimentar con sabores y texturas, mancharme las manos creando
+                platos deliciosos que deleitan el paladar. Además, a través de
+                trazos y colores, puedo plasmar mis{" "}
+                <span className="stress">ideas y emociones</span> en papel,
+                creando ilustraciones que transmiten un mensaje sin necesidad de
+                palabras.{" "}
+                <span role="img" aria-label="Paleta de colores">
+                  🎨
+                </span>
+              </p>
+              <p className="margin">
+                Mis amigos son una parte esencial en mi vida. Junto a ellos,
+                encuentro la inspiración y el apoyo necesario para continuar
+                persiguiendo mis sueños. Además, en los momentos más difíciles,
+                son mi <span className="stress">vía de escape</span>. ❤️
+                <span role="img" aria-label="Corazón">
+                  ❤️
+                </span>
+              </p>{" "}
+              <p className="margin">
+                Cuando necesito un tiempo para relajarme y sumergirme en nuevas
+                historias, nada se compara con un buen libro o una buena partida
+                a la Nintendo Switch.{" "}
+                <span role="img" aria-label="Libro">
+                  📚
+                </span>{" "}
+                <span role="img" aria-label="Videojuego">
+                  🎮
+                </span>{" "}
+                Esto me permite escapar a mundos fascinantes, inspirarme de
+                nuevas ideas y descubrir personajes memorables. Cada aventura es
+                un portal hacia la imaginación y el conocimiento.{" "}
+                <span role="img" aria-label="Estrella">
+                  🌟
+                </span>
+              </p>
+              <p className="margin">
+                Aquí tienes una pequeña muestra de quién soy. Si deseas
+                descubrir más,<span className="stress">sigue navegando</span> .
+                ¡Bienvenidos a mi mundo!{" "}
+                <span role="img" aria-label="Globo terráqueo">
+                  🌍
+                </span>
+                muestra de quién soy. Si deseas descubrir más, sigue navegando.{" "}
+              </p>
+              <p className="salute margin">
+                {" "}
+                ¡Bienvenidos a mi mundo!{" "}
+                <span role="img" aria-label="Cara timida sonriente">
+                  😊
+                </span>
+              </p>
             </p>
             <span className="ornament">&lt;/p&gt;</span>
           </div>
         </main>
         <section className="content-img-about">
-          <div className="content-svg-about">
-            <div className="img-container-about">
-              <img
-                className="Svg-about"
-                src={svg}
-                alt="Ilustracion de barias cosas a linea haciendo referencia a los gustos"
-              />
-            </div>
+          <div className="img-container-about">
+            <img
+              className="Svg-about"
+              src={svg}
+              alt="Ilustracion de varias cosas a línea haciendo referencia a los gustos"
+            />
           </div>
+
+          <FooterRRSS />
         </section>
       </body>
     </>

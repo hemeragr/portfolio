@@ -2,6 +2,7 @@ const Twitter = () => {
   return (
     <div>
       <svg
+      height={50}
         clip-rule="evenodd"
         fill-rule="evenodd"
         stroke-linejoin="round"

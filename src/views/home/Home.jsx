@@ -1,12 +1,12 @@
 import "./Home.scss";
 import Svg_hi from "../../componentes/svg-hi/SvgHi";
 import face from "../../assets/face.svg";
-import Nav from "../../componentes/nav/Nav";
+import NavHome from "../../componentes/nav/NavHome";
 
 const Home = () => {
   return (
     <body className="body-home">
-      <section className="content-text">
+      <section className="content-text-home">
         <main>
           <div className="title">
             <span className="ornament space2">&lt;h1&gt;</span>
@@ -21,10 +21,10 @@ const Home = () => {
           </div>
         </main>
         <footer className="footer">
-          <Nav />
+          <NavHome />
         </footer>
       </section>
-      <section className="content-img">
+      <section className="content-img-home">
         <div className="content-hi">
           <Svg_hi />
         </div>

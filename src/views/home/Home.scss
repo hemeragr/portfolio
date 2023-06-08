@@ -8,10 +8,10 @@
 
 .content-hi {
   width: 11%;
-  position: fixed;
+  position: absolute;
   z-index: 2;
-  top: 55%;
-  left: 50%;
+  top: 5%;
+  left: 5%;
 }
 
 .footer {
@@ -20,15 +20,7 @@
   margin-top: 5%;
 }
 
-.content-img {
-  margin-top: -100px;
-  width: 70%;
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
-}
+
 
 .img-container {
   width: 100%;
