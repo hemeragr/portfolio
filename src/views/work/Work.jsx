@@ -51,6 +51,7 @@ const Work = () => {
               ))}
             </div>
           </main>
+          
           <footer>
             <Footer />
           </footer>
