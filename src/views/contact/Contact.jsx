@@ -7,7 +7,7 @@ import hand from "../../assets/hand.svg";
 const Contact = () => {
   return (
     <body className="body-contact">
-      <main className="content-text">
+      <main className="content-text-contact">
         <div className="title">
           <span className="ornament">&lt;h2&gt;</span>
           <h2 className="headers header-h2">Salúdame</h2>
@@ -15,11 +15,36 @@ const Contact = () => {
         </div>
         <div className="container-paragraph">
           <span className="ornament">&lt;p&gt;</span>
-          <p className="paragraph">
-            ¡Esto es un poquito de mí! Si quieres llevar tus proyectos al
-            siguiente nivel, ¡estoy aquí para ayudarte! No dudes en contactarme
-            y juntos haremos realidad tus ideas. ¡Espero saber de ti pronto!
+          <p className="paragraph-small text-contact">
+            <p className="salute">
+              ¡Esto es un poquito de mí!
+              <span role="img" aria-label="Saludo">
+                {" "}
+                ✨
+              </span>
+            </p>
+            <p>
+              Si quieres llevar tus proyectos al siguiente nivel,
+              <span className="stress">¡estoy aquí para ayudarte!</span>
+              <span role="img" aria-label="Cohete">
+                {" "}
+                🚀
+              </span>
+            </p>
+            <p>
+              No dudes en contactarme y juntos haremos realidad tus ideas.
+              <span role="img" aria-label="Manos estrechadas">
+                🤝
+              </span>
+            </p>
+            <p>
+              ¡Espero saber de ti pronto!{" "}
+              <span role="img" aria-label="Correo y estrellas">
+                📩💫
+              </span>
+            </p>
           </p>
+
           <span className="ornament">&lt;/p&gt;</span>
         </div>
         <span className="ornament">&lt;form&gt;</span>

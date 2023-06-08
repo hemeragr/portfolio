@@ -20,8 +20,8 @@ const About = () => {
             <span className="ornament">&lt;p&gt;</span>
             <p className="paragraph text-about">
               <p className="text-salute ">
-                <span className="salute"> ¡Hey, hola, hola!</span>{" "}
-                <span role="img" aria-label="Saludo">
+                <span className="salute"> ¡Hey, hola, hola! </span>{" "}
+                <span className="icon-text" role="img" aria-label="Saludo">
                   👋
                 </span>
                 Me llamo <span className="stress"> Hemera</span>,{" "}
@@ -34,11 +34,11 @@ const About = () => {
                 {" "}
                 Después de graduarme en{" "}
                 <span className="stress">Bellas Artes</span>, he logrado
-                encontrar un equilibrio perfecto entre el diseño y el arte,
-                creando una simbiosis armoniosa. Gracias a esta combinación,
-                tengo la habilidad de llevar cualquier proyecto al mundo digital
-                de forma eficiente y efectiva. ¡Es como magia!{" "}
-                <span role="img" aria-label="Magia">
+                encontrar un equilibrio entre el diseño y el arte en el
+                front-end, creando una simbiosis armoniosa. Gracias a esta
+                combinación, tsoy capaz de convertir proyectos digitales de
+                manera eficiente. ¡Es como magia!{" "}
+                <span className="icon-text" role="img" aria-label="Magia">
                   ✨
                 </span>
               </p>
@@ -48,15 +48,17 @@ const About = () => {
                 <span className="stress">
                   experiencias únicas y cautivadoras
                 </span>
-                . Amo la forma en que el diseño web fusiona la creatividad con
-                la funcionalidad, permitiéndome dar vida a ideas y conectar con
-                personas en todo el mundo.
+                .
               </p>
               <p className="margin">
                 {" "}
-                Cuando no estoy inmersa en el código, mi corazón se llena de
+                Cuando no estoy inmersa en el código, me sumerjo en la
                 <span className="stress"> música</span>.
-                <span role="img" aria-label="Notas musicales">
+                <span
+                  className="icon-text"
+                  role="img"
+                  aria-label="Notas musicales"
+                >
                   🎵
                 </span>{" "}
                 Esta me transporta a un lugar donde puedo expresar mis emociones
@@ -67,7 +69,11 @@ const About = () => {
                 <span className="stress">ideas y emociones</span> en papel,
                 creando ilustraciones que transmiten un mensaje sin necesidad de
                 palabras.{" "}
-                <span role="img" aria-label="Paleta de colores">
+                <span
+                  className="icon-text"
+                  role="img"
+                  aria-label="Paleta de colores"
+                >
                   🎨
                 </span>
               </p>
@@ -76,7 +82,7 @@ const About = () => {
                 encuentro la inspiración y el apoyo necesario para continuar
                 persiguiendo mis sueños. Además, en los momentos más difíciles,
                 son mi <span className="stress">vía de escape</span>. ❤️
-                <span role="img" aria-label="Corazón">
+                <span className="icon-text" role="img" aria-label="Corazón">
                   ❤️
                 </span>
               </p>{" "}
@@ -84,16 +90,16 @@ const About = () => {
                 Cuando necesito un tiempo para relajarme y sumergirme en nuevas
                 historias, nada se compara con un buen libro o una buena partida
                 a la Nintendo Switch.{" "}
-                <span role="img" aria-label="Libro">
+                <span className="icon-text" role="img" aria-label="Libro">
                   📚
                 </span>{" "}
-                <span role="img" aria-label="Videojuego">
+                <span className="icon-text" role="img" aria-label="Videojuego">
                   🎮
                 </span>{" "}
                 Esto me permite escapar a mundos fascinantes, inspirarme de
                 nuevas ideas y descubrir personajes memorables. Cada aventura es
                 un portal hacia la imaginación y el conocimiento.{" "}
-                <span role="img" aria-label="Estrella">
+                <span className="icon-text" role="img" aria-label="Estrella">
                   🌟
                 </span>
               </p>
@@ -101,7 +107,11 @@ const About = () => {
                 Aquí tienes una pequeña muestra de quién soy. Si deseas
                 descubrir más,<span className="stress">sigue navegando</span> .
                 ¡Bienvenidos a mi mundo!{" "}
-                <span role="img" aria-label="Globo terráqueo">
+                <span
+                  className="icon-text"
+                  role="img"
+                  aria-label="Globo terráqueo"
+                >
                   🌍
                 </span>
                 muestra de quién soy. Si deseas descubrir más, sigue navegando.{" "}
@@ -109,7 +119,11 @@ const About = () => {
               <p className="salute margin">
                 {" "}
                 ¡Bienvenidos a mi mundo!{" "}
-                <span role="img" aria-label="Cara timida sonriente">
+                <span
+                  className="icon-text"
+                  role="img"
+                  aria-label="Cara timida sonriente"
+                >
                   😊
                 </span>
               </p>

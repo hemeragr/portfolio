@@ -3,7 +3,7 @@
 
 .body-about {
   width: 100%;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 140px;
   display: flex;
   justify-content: center;
@@ -16,11 +16,16 @@
   width: 100%;
   max-width: 800px;
 }
-
+.icon-text{
+ padding: 2px;
+}
 .ornament {
   color: $grey;
 }
 
+.title{
+  margin-bottom: -10px;
+}
 .container-paragraph {
   width: 100%;
   margin-top: 20px;

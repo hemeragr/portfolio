@@ -20,7 +20,8 @@ $font-x-large: 100px;
 $font-larger: 35px;
 $font-large: 30px;
 $font-medium: 24px;
-$font-small: 16px;
+$font-small: 18px;
+$font-smaller: 16px;
 
 .headers {
   font-family: $font-roboto;
@@ -62,6 +63,13 @@ $font-small: 16px;
 }
 
 .paragraph {
+  font-family: $font-raleway;
+  font-weight: $font-regular;
+  color: $black;
+  font-size: $font-smaller;
+}
+
+.paragraph-small{
   font-family: $font-raleway;
   font-weight: $font-regular;
   color: $black;

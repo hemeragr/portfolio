@@ -20,6 +20,7 @@ const Home = () => {
             <span className="ornament space2">&lt;/p&gt;</span>
           </div>
         </main>
+        
         <footer className="footer">
           <NavHome />
         </footer>
@@ -28,9 +29,9 @@ const Home = () => {
         <div className="content-hi">
           <Svg_hi />
         </div>
-        <div className="img-container">
+        <div className="img-container-home">
           <img
-            className="Svg-face"
+            className="Svg-home"
             src={face}
             alt="Ilustracion a linea de una cara"
           />
