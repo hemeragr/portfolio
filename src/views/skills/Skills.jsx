@@ -106,49 +106,47 @@ const TX = [
 
 const Skills = () => {
   return (
-    <>
-      <body>
-        <section className="content-home">
-          <main>
-            <div className="title">
-              <span className="ornament">&lt;h2&gt;</span>
-              <h2 className="headers header-h2">Habilidades</h2>
-              <span className="ornament">&lt;/h2&gt;</span>
-            </div>
-            <span className="ornament">&lt;p&gt;</span>
-            <p className="paragraph">
-              Donec maximus odio sed erat sagittis gravida. Aliquam ac mauris ut
-              mauris blandit dictum sit amet a justo. Quisque non odio justo.
-              Sed interdum in velit id suscipit. Donec quis libero nec nisl
-              interdum efficitur lobortis a turpis.
-            </p>
-            <span className="ornament">&lt;/p&gt;</span>
-
-            <div>
-              <span className="ornament">&lt;div&gt;</span>
-              <div className="columns-bar">
-                {IC.map((object) => (
-                  <div key={object.icon} className="content-barskills">
-                    <BarSkill cita={object} />
-                  </div>
-                ))}
-              </div>
-              <span className="ornament">&lt;/div&gt;</span>
-            </div>
-          </main>
-        </section>
-        <section className="content-cards">
-          <div className="contents">
-            {TX.map((text) => (
-              <div key={text.title} className="content-cardText">
-                <Cardtxt card={text} />
-              </div>
-            ))}
+    <div className="body-home">
+      <section className="content-home">
+        <main>
+          <div className="title">
+            <span className="ornament">&lt;h2&gt;</span>
+            <h2 className="headers header-h2">Habilidades</h2>
+            <span className="ornament">&lt;/h2&gt;</span>
           </div>
-          <Footer />
-        </section>
-      </body>
-    </>
+          <span className="ornament">&lt;p&gt;</span>
+          <p className="paragraph">
+            Donec maximus odio sed erat sagittis gravida. Aliquam ac mauris ut
+            mauris blandit dictum sit amet a justo. Quisque non odio justo. Sed
+            interdum in velit id suscipit. Donec quis libero nec nisl interdum
+            efficitur lobortis a turpis.
+          </p>
+          <span className="ornament">&lt;/p&gt;</span>
+
+          <div>
+            <span className="ornament">&lt;div&gt;</span>
+            <div className="columns-bar">
+              {IC.map((object) => (
+                <div key={object.icon} className="content-barskills">
+                  <BarSkill cita={object} />
+                </div>
+              ))}
+            </div>
+            <span className="ornament">&lt;/div&gt;</span>
+          </div>
+        </main>
+      </section>
+      <section className="content-cards">
+        <div className="contents">
+          {TX.map((text) => (
+            <div key={text.title} className="content-cardText">
+              <Cardtxt card={text} />
+            </div>
+          ))}
+        </div>
+        <Footer />
+      </section>
+    </div>
   );
 };
 

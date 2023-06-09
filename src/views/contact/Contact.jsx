@@ -6,7 +6,7 @@ import hand from "../../assets/hand.svg";
 
 const Contact = () => {
   return (
-    <body className="body-contact">
+    <div className="body-contact">
       <main className="content-text-contact">
         <div className="title">
           <span className="ornament">&lt;h2&gt;</span>
@@ -69,7 +69,7 @@ const Contact = () => {
           />
         </div>
       </section>
-    </body>
+    </div>
   );
 };
 

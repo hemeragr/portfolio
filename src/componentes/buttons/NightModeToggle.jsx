@@ -1,5 +1,3 @@
-import React from "react";
-
 const NightModeToggle = ({ isNightMode, onToggle }) => {
   return (
     <button onClick={onToggle}>

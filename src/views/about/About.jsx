@@ -6,7 +6,7 @@ import FooterRRSS from "../../componentes/footer-rrss/FooterRRSS";
 const About = () => {
   return (
     <>
-      <body className="body-about">
+      <div className="body-about">
         <main className="content-text-about">
           <div className="title">
             <span className="ornament">&lt;h2&gt;</span>
@@ -142,7 +142,7 @@ const About = () => {
 
           <FooterRRSS />
         </section>
-      </body>
+      </div>
     </>
   );
 };

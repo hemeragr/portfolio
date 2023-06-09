@@ -6,7 +6,7 @@ import "./index.js";
 const Work = () => {
   return (
     <>
-      <body className="body-work">
+      <div className="body-work">
         <section className="content-home">
           <main>
             <span className="ornament">&lt;h2&gt;</span>
@@ -21,7 +21,7 @@ const Work = () => {
             <Footer />
           </footer>
         </section>
-      </body>
+      </div>
     </>
   );
 };
