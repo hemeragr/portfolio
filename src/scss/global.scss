@@ -1,6 +1,7 @@
 @import "./_variables";
 @import "./_typography";
 @import "./_custom-properties";
+@import "../componentes/buttons/nightMode";
 
 :root {
   line-height: 1.5;
@@ -13,5 +14,4 @@
 body {
   width: 100%;
   display: flex;
-
 }

@@ -1,0 +1,57 @@
+// Estilos para el modo noche
+$dark-background-color: $black;
+$dark-text-color: $white-dark;
+$dark-btn: $blue;
+$dark-color-hi-home: $white;
+$dark-color-hi-contact: $blue;
+$dark-color-svg: $blue-dark;
+$dark-border: $blue-dark;
+
+// Estilos modo dia
+$light-background-color: $white;
+$light-text-color: $black;
+$light-btn: $orange;
+$light-color-svg-face: $black;
+
+// Aplica los estilos a todos los elementos descendientes
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: $light-background-color;
+  color: $light-text-color;
+  .hi-svg {
+    fill: $orange;
+  }
+  .Svg-home {
+    fill: $black;
+  }
+
+  &.is-night-mode {
+    background-color: $dark-background-color;
+
+    .headers {
+      color: $dark-text-color;
+    }
+
+    .button-whit-logo {
+      background-color: $dark-btn;
+      border: $dark-border;
+    }
+
+    .subtitle {
+      color: $dark-text-color;
+    }
+
+    .Svg-home {
+      filter: invert(100%) hue-rotate(180deg);
+    }
+
+    .Svg-home {
+      fill: $blue-dark;
+      filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.4));
+    }
+    .hi-svg {
+      fill: $white-dark;
+    }
+  }
+}
