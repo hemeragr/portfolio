@@ -95,12 +95,12 @@ const TX = [
   {
     title: "Frontend",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend elementum quam a sagittis. Proin tincidunt nisl est, vitae venenatis lorem fermentum et. Vestibulum eget consectetur orci, eget dapibus nulla. Duis condimentum nibh a laoreet consequat. Ut eu pharetra turpis. Quisque eleifend nisl sed turpis luctus elementum.",
+      "Como front-end, mi pasión radica en romper la estática de los sitios web y hacer que cobren vida. Disfruto enormemente añadiendo ese toque mágico que transforma las páginas en experiencias interactivas y cautivadoras. Mi enfoque se basa en escribir un código limpio y eficiente que permita la fluidez y funcionalidad necesarias.",
   },
   {
     title: "UX/UI",
     paragraph:
-      "Donec maximus odio sed erat sagittis gravida. Aliquam ac mauris ut mauris blandit dictum sit amet a justo. Quisque non odio justo. Sed interdum in velit id suscipit. Donec quis libero nec nisl interdum efficitur lobortis a turpis. ",
+      "Como front-end, mi pasión radica en romper la estática de los sitios web y hacer que cobren vida. Disfruto enormemente añadiendo ese toque mágico que transforma las páginas en experiencias interactivas y cautivadoras. Mi enfoque se basa en escribir un código limpio y eficiente que permita la fluidez y funcionalidad necesarias.",
   },
 ];
 
@@ -116,10 +116,38 @@ const Skills = () => {
           </div>
           <span className="ornament">&lt;p&gt;</span>
           <p className="paragraph">
-            Donec maximus odio sed erat sagittis gravida. Aliquam ac mauris ut
-            mauris blandit dictum sit amet a justo. Quisque non odio justo. Sed
-            interdum in velit id suscipit. Donec quis libero nec nisl interdum
-            efficitur lobortis a turpis.
+            Soy una persona que disfruta del{" "}
+            <span className="stress">trabajo en equipo </span> y me encanta
+            animar el ambiente con alguna que otra broma.{" "}
+            <span className="icon-text" role="img" aria-label="Cara sonriente">
+              {" "}
+              😄{" "}
+            </span>{" "}
+            Me considero una compañera de
+            <span className="stress"> equipo aplicada y responsable</span>,
+            dispuesta a dar ese esfuerzo adicional para asegurarnos de que el
+            proyecto avance sin problemas.{" "}
+            <span
+              className="icon-text"
+              role="img"
+              aria-label="Brazo sacando musculo"
+            >
+              {" "}
+              💪{" "}
+            </span>{" "}
+            Soy como el pegamento que mantiene unido al equipo, fomentando la
+            colaboración y la comunicación efectiva.{" "}
+            <span className="icon-text" role="img" aria-label="Dos siluetas">
+              {" "}
+              👥{" "}
+            </span>{" "}
+            Puedes contar conmigo para mantener una{" "}
+            <span className="stress"> actitud positiva </span>, motivar a los
+            demás y hacer que el trabajo en equipo sea divertido y gratificante.{" "}
+            <span className="icon-text" role="img" aria-label="Saludo festivo">
+              {" "}
+              🎉{" "}
+            </span>
           </p>
           <span className="ornament">&lt;/p&gt;</span>
 
