@@ -1,9 +1,13 @@
+$nav-flex-direction: row;
+$nav-z-index: 99;
+$button-z-index: 99;
+
 .nav {
   display: flex;
-  flex-direction: row;
-  z-index: 99;
+  flex-direction: $nav-flex-direction;
+  z-index: $nav-z-index;
 }
 
 .button-whit-logo {
-  z-index: 99;
+  z-index: $button-z-index;
 }

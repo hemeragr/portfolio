@@ -1,4 +1,211 @@
-$mq-samll: 300;
-$mq-medium: 800;
-$mq-large:1200;
+@import "./custom-properties";
+//MediaQueris
 
+// Colores
+$background-color-dark: $black; // Color de fondo oscuro
+$background-color-light: $white; // Color de fondo claro
+$bg-color: $orange; // Color de fondo
+$color-btn-dark: $blue; // Color de botón oscuro
+$color-svg-dark: $blue-dark; // Color de SVG oscuro
+$color-svg-light: $black; // Color de SVG claro
+$dark-background-color: $black; // Color de fondo oscuro
+$dark-border: $blue-dark; // Borde oscuro
+$dark-border-card: $white-dark; // Borde de tarjeta oscuro
+$dark-btn: $blue; // Botón oscuro
+$dark-color-hi-contact: $blue; // Color oscuro del mensaje "Hola" en contacto
+$dark-color-hi-home: $white; // Color oscuro del mensaje "Hola" en página de inicio
+$dark-color-svg: $blue-dark; // Color oscuro del SVG
+$grey: #dcdcdc; // Gris
+$grey-dark: #ababab; // Gris oscuro
+$light-background-color: $white; // Color de fondo claro
+$light-btn: $orange; // Botón claro
+$light-color-svg-face: $black; // Color claro del SVG
+$light-paragraph: $black; // Párrafo claro
+$light-text-color: $black; // Color de texto claro
+$orange: #ffb74b; // Naranja
+$orange-dark: #f4ae44; // Naranja oscuro
+$ornament-color: $grey; // Color de adorno
+$stress-color: $orange; // Color de énfasis
+$text-btn: $white; // Color de texto del botón
+$white: #ffffff; // Blanco
+$white-dark: #efefef; // Blanco oscuro
+
+// Fuentes y pesos de fuente
+$font-bold: 700; // Peso de fuente negrita
+$font-extraLight: 100; // Peso de fuente extraligero
+$font-indie: "Indie Flower"; // Fuente Indie Flower
+$font-large: 30px; // Tamaño de fuente grande
+$font-larger: 35px; // Tamaño de fuente más grande
+$font-light: 300; // Peso de fuente ligero
+$font-medium: 24px; // Tamaño de fuente mediano
+$font-raleway: "Raleway"; // Fuente Raleway
+$font-regular: 400; // Peso de fuente regular
+$font-roboto: "Roboto"; // Fuente Roboto
+$font-small: 18px; // Tamaño de fuente pequeño
+$font-smaller: 16px; // Tamaño de fuente más pequeño
+$font-x-large: 100px; // Tamaño de fuente muy grande
+$font-xx-large: 160px; // Tamaño de fuente extremadamente grande
+
+// Tamaños de fuente
+$font-large: 30px; // Tamaño de fuente grande
+$font-larger: 35px; // Tamaño de fuente más grande
+$font-medium: 24px; // Tamaño de fuente mediano
+$font-small: 18px; // Tamaño de fuente pequeño
+$font-smaller: 16px; // Tamaño de fuente más pequeño
+$font-x-large: 100px; // Tamaño de fuente muy grande
+$font-xx-large: 160px; // Tamaño de fuente extremadamente grande
+
+// Otros estilos de texto
+$form-text-color: $black; // Color de texto de formulario
+$ornament: $grey; // Adorno
+$paragraph: $font-smaller $font-raleway $font-regular $black; // Párrafo
+$paragraph-small: $font-small $font-raleway $font-regular $black; // Párrafo pequeño
+$subtitle: $font-larger $font-raleway $font-extraLight $black; // Subtítulo
+$text-btn: $font-large $font-raleway $font-regular $white; // Texto de botón
+$header-h1: $font-xx-large $font-bold; // Encabezado H1
+$header-h2: $font-x-large $font-bold; // Encabezado H2
+$header-h2-ligth: $font-x-large $font-extraLight; // Encabezado H2 ligero
+$surname: $font-xx-large $font-extraLight; // Apellido
+$header-h3: $font-large $font-regular; // Encabezado H3
+$text-form: $font-medium $font-raleway $font-regular $black; // Texto de formulario
+
+// Transiciones y z-index
+$button-z-index: 99; // Z-index de botón
+$nav-z-index: 99; // Z-index de navegación
+$transition: background-color 0.3s ease; // Transición
+
+// Medios de consulta
+$mq-samll: 300; // Media query para tamaños pequeños
+$mq-medium: 800; // Media query para tamaños medianos
+$mq-large: 1200; // Media query para tamaños grandes
+
+// Tamaños y dimensiones
+$btn-sice-ld: 40px; // Tamaño de botón (ld)
+$btn-sice-nav: 60px; // Tamaño de botón de navegación
+$card-padding-small: 5px; // Padding pequeño de tarjeta
+$card-padding-large: 30px; // Padding grande de tarjeta
+$card-width: 500px; // Ancho de tarjeta
+$card-margin: 30px; // Margen de tarjeta
+$card-border-radius: 40px 40px 0px 40px; // Radio de borde de tarjeta
+$card-title-padding-left: 10px; // Padding izquierdo del título de tarjeta
+$card-title-border-bottom: 4px solid $black; // Borde inferior del título de tarjeta
+$btn-sice-ld: 40px; // Tamaño de botón (ld)
+$btn-sice-nav: 60px; // Tamaño de botón de navegación
+$card-padding-small: 5px; // Padding pequeño de tarjeta
+$card-padding-large: 30px; // Padding grande de tarjeta
+$card-width: 500px; // Ancho de tarjeta
+$card-margin: 30px; // Margen de tarjeta
+$card-border-radius: 40px 40px 0px 40px; // Radio de borde de tarjeta
+$card-title-padding-left: 10px; // Padding izquierdo del título de tarjeta
+$card-title-border-bottom: 4px solid $black; // Borde inferior del título de tarjeta
+$btn-sice-ld: 40px; // Tamaño de botón (ld)
+$btn-sice-nav: 60px; // Tamaño de botón de navegación
+$card-padding-small: 5px; // Padding pequeño de tarjeta
+$card-padding-large: 30px; // Padding grande de tarjeta
+$card-width: 500px; // Ancho de tarjeta
+$card-margin: 30px; // Margen de tarjeta
+$card-border-radius: 40px 40px 0px 40px; // Radio de borde de tarjeta
+$card-title-padding-left: 10px; // Padding izquierdo del título de tarjeta
+$card-title-border-bottom: 4px solid $black; // Borde inferior del título de tarjeta
+
+// Estilos de borde y sombra
+$border: 0.5px solid $orange-dark; // Borde
+$border-tj: 1px solid #dcdcdc; // Borde de tarjeta
+$card-border: $border-tj; // Borde de tarjeta
+$card-box-shadow: $tarjet-shadow-light; // Sombra de tarjeta
+$dark-border: $blue-dark; // Borde oscuro
+$dark-border-card: $white-dark; // Borde de tarjeta oscuro
+$tarjet-shadow-dark: 0px 2px 11px $grey-dark; // Sombra de tarjeta oscura
+$tarjet-shadow-light: 0px 2px 11px rgba(0, 0, 0, 0.4); // Sombra de tarjeta clara
+$main-shadow: 0px 2px 7px rgba(0, 0, 0, 0.4); // Sombra principal
+
+// Colores
+$background-color-dark: $black; // Color de fondo oscuro
+$background-color-light: $white; // Color de fondo claro
+$bg-color: $orange; // Color de fondo
+$card-bg-color: $grey; // Color de fondo de tarjeta
+$color-btn-dark: $blue; // Color oscuro del botón
+$color-svg-dark: $blue-dark; // Color oscuro del icono SVG
+$color-svg-light: $black; // Color claro del icono SVG
+$dark-background-color: $black; // Color de fondo oscuro
+$dark-btn: $blue; // Botón oscuro
+$dark-color-hi-contact: $blue; // Color oscuro del saludo de contacto
+$dark-color-hi-home: $white; // Color oscuro del saludo de inicio
+$dark-color-svg: $blue-dark; // Color oscuro del icono SVG
+$dark-paragraph: $white-dark; // Párrafo oscuro
+$dark-shadow: $tarjet-shadow-dark; // Sombra oscura
+$dark-text-color: $white-dark; // Color de texto oscuro
+$grey: #dcdcdc; // Gris
+$grey-dark: #ababab; // Gris oscuro
+$hover-btn: darken($orange, 10%); // Color oscuro del botón al pasar el mouse
+$light-background-color: $white; // Color de fondo claro
+$light-btn: $orange; // Botón claro
+$light-color-svg-face: $black; // Color claro del icono de cara SVG
+$light-paragraph: $black; // Párrafo claro
+$light-text-color: $black; // Color de texto claro
+$orange: #ffb74b; // Naranja
+$orange-dark: #f4ae44; // Naranja oscuro
+$stress-color: $orange; // Color de estrés
+$white: #ffffff; // Blanco
+$white-dark: #efefef; // Blanco oscuro
+
+// Fuentes y estilos de texto
+$font-bold: 700; // Fuente en negrita
+$font-extraLight: 100; // Fuente extra ligera
+$font-indie: "Indie Flower"; // Fuente "Indie Flower"
+$font-large: 30px; // Tamaño de fuente grande
+$font-larger: 35px; // Tamaño de fuente más grande
+$font-light: 300; // Fuente ligera
+$font-medium: 24px; // Tamaño de fuente mediano
+$font-raleway: "Raleway"; // Fuente "Raleway"
+$font-regular: 400; // Fuente regular
+$font-roboto: "Roboto"; // Fuente "Roboto"
+$font-small: 18px; // Tamaño de fuente pequeño
+$font-smaller: 16px; // Tamaño de fuente más pequeño
+
+// Formulario
+$form-border-color: $grey; // Color de borde del formulario
+$form-input-height: 40px; // Altura de entrada de formulario
+$form-input-padding: 8px; // Padding de entrada de formulario
+$form-button-bg-color: $orange; // Color de fondo del botón de formulario
+$form-button-text-color: $white; // Color de texto del botón de formulario
+$form-button-padding: 10px 20px; // Padding del botón de formulario
+$form-button-border-radius: 4px; // Radio de borde del botón de formulario
+
+// Margenes y padding
+$margin: 5px; // Margen
+$margin-top: 50px; // Margen superior
+$margin-margin-top: -20px; // Margen superior negativo
+$padding-large: 15px; // Padding grande
+$padding-small: 5px; // Padding pequeño
+
+// Iconos y dimensiones
+$icon-code-padding-top: 5px; // Padding superior del icono de código
+$icon-code-width: 45px; // Ancho del icono de código
+$icon-contact-width: 30px; // Ancho del icono de contacto
+$icon-hand-height: auto; // Altura del icono de mano
+$icon-hand-max-width: 420px; // Ancho máximo del icono de mano
+$icon-hand-width: 100%; // Ancho del icono de mano
+$icon-skills-padding-left: 5px; // Padding izquierdo del icono de habilidades
+$icon-skills-width: 45px; // Ancho del icono de habilidades
+$icons-height: 30px; // Altura de iconos
+$icons-width: 30px; // Ancho de iconos
+$sice-icon: 30px; // Tamaño de icono
+$size-app: 60px; // Tamaño de aplicación
+$skill-bar-width: 90px; // Ancho de la barra de habilidades
+$skill-bar-padding-left: 12px; // Padding izquierdo de la barra de habilidades
+
+// Otros
+$button-z-index: 99; // Índice z del botón
+$card-box-shadow: $tarjet-shadow-light; // Sombra de tarjeta
+$card-border-radius: 40px 40px 0px 40px; // Radio de borde de tarjeta
+$columns-bar-columns: 4; // Columnas de la barra de columnas
+$columns-bar-padding-top: 20px; // Padding superior de la barra de columnas
+$columns-bar-padding-bottom: 20px; // Padding inferior de la barra de columnas
+$content-text-about-max-width: 800px; // Ancho máximo del contenido de texto sobre mí
+$content-hi-width: 20%; // Ancho del contenido de saludo
+$footer-margin-left: 250px; // Margen izquierdo del pie de página
+$footer-margin-top: 7%; // Margen superior del pie de página
+$content-slider-width: 100vw; // Ancho del contenido del control deslizante
+$hover-btn: darken($orange, 10%); // Color de botón oscuro al pasar el mouse
+$icon-code-padding-top: 5px; // Padding superior del icono de código

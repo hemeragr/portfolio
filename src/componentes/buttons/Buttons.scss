@@ -1,19 +1,19 @@
 @import "../../scss/global.scss";
 
-$btn-sice-nav: 60px;
+$btn-size-nav: 60px;
 $bg-color: $orange;
 $border: 0.5px solid $orange-dark;
 $border-radius: 50%;
 $margin: 5px;
-$sice-icon: 30px;
-$btn-sice-ld: 40px;
+$icon-size: 30px;
+$btn-size-ld: 40px;
 $transition: background-color 0.3s ease;
 
 .button-whit-logo {
   display: inline-block;
   cursor: pointer;
-  width: $btn-sice-nav;
-  height: $btn-sice-nav;
+  width: $btn-size-nav;
+  height: $btn-size-nav;
   background-color: $bg-color;
   border-radius: $border-radius;
   text-align: center;
@@ -35,7 +35,7 @@ $transition: background-color 0.3s ease;
 .button-send {
   cursor: pointer;
   all: unset;
-  width: $btn-sice-nav;
+  width: $btn-size-nav;
   height: 20px;
   background-color: $bg-color;
   border-radius: 25px;
@@ -49,15 +49,15 @@ $transition: background-color 0.3s ease;
 }
 
 .icon {
-  width: $sice-icon;
-  height: $sice-icon;
+  width: $icon-size;
+  height: $icon-size;
 }
 
 .btn-ld {
   cursor: pointer;
   all: unset;
-  width: $btn-sice-ld;
-  height: $btn-sice-ld;
+  width: $btn-size-ld;
+  height: $btn-size-ld;
   margin-top: -40px;
 }
 
@@ -66,5 +66,3 @@ $transition: background-color 0.3s ease;
   all: unset;
   cursor: pointer;
 }
-
-

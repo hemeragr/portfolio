@@ -1,11 +1,32 @@
 @import "../../scss/global.scss";
-/* Estilos generales */
 
+/* Variables */
+$body-about-margin-top: 50px;
+$body-about-margin-bottom: 140px;
+$content-text-about-max-width: 800px;
+$ornament-color: $grey;
+$title-margin-bottom: -10px;
+$container-paragraph-margin-top: 20px;
+$text-salute-font-size: 20px;
+$text-salute-font-weight: bold;
+$salute-font-size: 20px;
+$salute-font-weight: bold;
+$salute-color: $black;
+$stress-color: $orange;
+$stress-font-weight: bold;
+$margin-margin-top: -20px;
+$text-about-padding-left: 30px;
+$text-about-padding-right: 20px;
+$content-img-about-margin-bottom: -150px;
+$img-container-about-max-width: 100%;
+$svg-about-max-width: 95%;
+
+/* Estilos generales */
 .body-about {
   width: 100%;
   min-height: 100vh;
-  margin-top: 50px;
-  margin-bottom: 140px;
+  margin-top: $body-about-margin-top;
+  margin-bottom: $body-about-margin-bottom;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,58 +36,61 @@
 
 .content-text-about {
   width: 100%;
-  max-width: 800px;
+  max-width: $content-text-about-max-width;
 }
+
 .icon-text {
   padding: 2px;
 }
+
 .ornament {
-  color: $grey;
+  color: $ornament-color;
 }
 
 .title {
-  margin-bottom: -10px;
+  margin-bottom: $title-margin-bottom;
 }
+
 .container-paragraph {
   width: 100%;
-  margin-top: 20px;
+  margin-top: $container-paragraph-margin-top;
 }
 
 .text-salute {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: $text-salute-font-size;
+  font-weight: $text-salute-font-weight;
 }
 
 .salute {
-  font-size: 20px;
-  font-weight: bold;
-  color: $black;
+  font-size: $salute-font-size;
+  font-weight: $salute-font-weight;
+  color: $salute-color;
 }
 
 .stress {
-  color: $orange;
-  font-weight: bold;
+  color: $stress-color;
+  font-weight: $stress-font-weight;
 }
 
 .margin {
-  margin-top: -20px;
+  margin-top: $margin-margin-top;
 }
 
 .text-about {
-  padding-left: 30px;
-  padding-right: 20px;
+  padding-left: $text-about-padding-left;
+  padding-right: $text-about-padding-right;
 }
 
 .content-img-about {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-bottom: -150px;
+  margin-bottom: $content-img-about-margin-bottom;
 }
 
 .img-container-about {
   width: 100%;
-  max-width: 100%;
+  max-width: $img-container-about-max-width;
   height: auto;
   display: flex;
   justify-content: center;
@@ -75,7 +99,7 @@
 }
 
 .Svg-about {
-  max-width: 95%;
+  max-width: $svg-about-max-width;
   height: auto;
 }
 

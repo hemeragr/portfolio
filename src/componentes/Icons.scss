@@ -1,30 +1,30 @@
+@import "../scss/global.scss";
+
 .icon-contact {
-  width: 30px;
+  width: $icon-contact-width;
 }
 
-
-
 .icon-code {
-  padding-top: 5px;
-  width: 45px;
+  padding-top: $icon-code-padding-top;
+  width: $icon-code-width;
 }
 
 .icon-skills {
-  padding-left: 5px;
-  width: 45px;
+  padding-left: $icon-skills-padding-left;
+  width: $icon-skills-width;
 }
 
 .skill-bar {
-  width: 120px;
+  width: $skill-bar-width;
 }
 
 .icons {
-  width: 30px;
-  height: 30px;
+  width: $icons-width;
+  height: $icons-height;
 }
 
-.icon-hand{
-  width: 100%;
-  height: auto;
-  max-width: 420px;
+.icon-hand {
+  width: $icon-hand-width;
+  height: $icon-hand-height;
+  max-width: $icon-hand-max-width;
 }

@@ -31,7 +31,7 @@ const About = () => {
               Después de graduarme en{" "}
               <span className="stress">Bellas Artes</span>, he logrado encontrar
               un equilibrio entre el diseño y el arte en el front-end, creando
-              una simbiosis armoniosa. Gracias a esta combinación, tsoy capaz de
+              una simbiosis armoniosa. Gracias a esta combinación, soy capaz de
               convertir proyectos digitales de manera eficiente. ¡Es como magia!{" "}
               <span className="icon-text" role="img" aria-label="Magia">
                 ✨
@@ -97,17 +97,16 @@ const About = () => {
               </span>
             </p>
             <p className="margin">
-              Aquí tienes una pequeña muestra de quién soy. Si deseas descubrir
-              más,<span className="stress">sigue navegando</span> . ¡Bienvenidos
-              a mi mundo!{" "}
+              Aquí tienes una pequeña muestra de quién soy.{" "}
               <span
                 className="icon-text"
                 role="img"
-                aria-label="Globo terráqueo"
+                aria-label="Cara timida sonriente"
               >
-                🌍
+                😊
               </span>
-              muestra de quién soy. Si deseas descubrir más, sigue navegando.{" "}
+              Si deseas descubrir más,
+              <span className="stress "> sigue navegando</span>
             </p>
             <p className="salute margin">
               {" "}
@@ -115,9 +114,9 @@ const About = () => {
               <span
                 className="icon-text"
                 role="img"
-                aria-label="Cara timida sonriente"
+                aria-label="Globo terráqueo"
               >
-                😊
+                🌍
               </span>
             </p>
           </p>

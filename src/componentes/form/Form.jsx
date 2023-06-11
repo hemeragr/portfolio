@@ -53,7 +53,7 @@ function ContactForm() {
 
       <div className="camp-text">
         <label className="form-text" htmlFor="mensaje">
-          Cuentame tus ideas...
+          Cuéntame tus ideas...
         </label>
         <textarea
           className=" txt-input"

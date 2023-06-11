@@ -1,25 +1,39 @@
+/* Variables */
+$columns-bar-columns: 4;
+$columns-bar-padding-top: 20px;
+$columns-bar-padding-bottom: 20px;
+$content-skills-bars-margin-top: 20px;
+$tilte-skills-margin-bottom: 20px;
+$txt-skills-margin-left: 30px;
+$content-cards-padding-top: 100px;
+$content-cards-z-index: 0;
+
+/* Estilos generales */
 .columns-bar {
-  columns: 4;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  columns: $columns-bar-columns;
+  padding-top: $columns-bar-padding-top;
+  padding-bottom: $columns-bar-padding-bottom;
 }
+
 .content-skills-bars {
-  margin-top: 20px;
+  margin-top: $content-skills-bars-margin-top;
 }
+
 .tilte-skills {
-  margin-bottom: 20px;
+  margin-bottom: $tilte-skills-margin-bottom;
 }
+
 .txt-skills {
-  margin-left: 30px;
+  margin-left: $txt-skills-margin-left;
 }
 
 .content-cards {
-  padding-top: 100px;
+  padding-top: $content-cards-padding-top;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 0;
+  z-index: $content-cards-z-index;
 }
 
 .content-cardText {

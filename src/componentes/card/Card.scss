@@ -1,19 +1,16 @@
 @import "../../scss/global.scss";
 
-$border: 1px solid #dcdcdc;
-
 .card {
   box-sizing: border-box;
   padding: 20px 50px;
   gap: 10px;
   width: 290px;
   height: 400px;
-margin: 20px;
+  margin: 20px;
   background: $white;
-  border: $border;
+  border: $border-tj;
   box-shadow: $tarjet-shadow-light;
   border-radius: 40px;
-
 
   &-title {
     font-family: $font-roboto;
@@ -27,8 +24,6 @@ margin: 20px;
     border-bottom: 2px solid $black;
   }
 }
-
-
 
 .link {
   all: unset;

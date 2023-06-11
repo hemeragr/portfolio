@@ -1,25 +1,33 @@
+$margin-top: 50px;
+$padding-small: 5px;
+$padding-large: 15px;
+$width-app: 60px;
+$width-appRRSS: 50px;
+$size-app: 60px;
+
 .nav-footer {
-  margin-top: 50px;
+  margin-top: $margin-top;
   text-align: center;
 }
 
 .nav-footerRRSS {
-  margin-top: 50px;
+  margin-top: $margin-top;
   text-align: center;
 }
 
 .content-app {
-  padding: 5px;
-  width: 60px;
+  padding: $padding-small;
+  width: $width-app;
   display: inline-block;
 }
+
 .content-appRRSS {
-  padding: 15px;
-  width: 50px;
+  padding: $padding-large;
+  width: $width-appRRSS;
   display: inline-block;
 }
 
 .app__link {
-  width: 60px;
-  height: 60px;
+  width: $width-app;
+  height: $size-app;
 }

@@ -1,7 +1,12 @@
-.body-work{
-    margin-top: 100px;
+/* Variables */
+$body-work-margin-top: 100px;
+$content-slider-width: 100vw;
+
+/* Estilos generales */
+.body-work {
+  margin-top: $body-work-margin-top;
 }
 
 .content-slider {
-  width: 100vw;
+  width: $content-slider-width;
 }

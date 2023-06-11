@@ -1,28 +1,9 @@
-// Estilos para el modo noche
-$dark-background-color: $black;
-$dark-text-color: $white-dark;
-$dark-btn: $blue;
-$dark-color-hi-home: $white;
-$dark-color-hi-contact: $blue;
-$dark-color-svg: $blue-dark;
-$dark-border: $blue-dark;
-$dark-border-card: $white-dark;
-$dark-paragraph: $white-dark;
-$dark-shadow: $tarjet-shadow-dark;
-
-// Estilos modo dia
-$light-background-color: $white;
-$light-text-color: $black;
-$light-btn: $orange;
-$light-color-svg-face: $black;
-$light-paragraph: $black;
-
-// Aplica los estilos a todos los elementos descendientes
 body {
   margin: 0;
   min-height: 100vh;
   background-color: $light-background-color;
   color: $light-text-color;
+
   .Svg-about {
     fill: $grey;
   }
@@ -34,6 +15,7 @@ body {
   .hi-svg {
     fill: $orange;
   }
+
   .Svg-home {
     fill: $black;
   }
@@ -41,6 +23,7 @@ body {
   .content-bar {
     fill: $black;
   }
+
   .paragraph {
     color: $light-paragraph;
   }
@@ -48,6 +31,7 @@ body {
   .form-text {
     color: $black;
   }
+
   .icon-ligthDark {
     fill: $black;
   }
@@ -71,9 +55,8 @@ body {
     .headers {
       color: $dark-text-color;
     }
-    .paragraph {
-      color: $dark-paragraph;
-    }
+
+    .paragraph,
     .paragraph-small {
       color: $dark-paragraph;
     }
@@ -98,6 +81,7 @@ body {
       background-color: $dark-btn;
       border: $dark-border;
     }
+
     .icon-ligthDark {
       fill: $blue-dark;
     }
@@ -107,6 +91,7 @@ body {
       border: $blue-dark;
       color: $black;
     }
+
     .card-skills {
       color: $white-dark;
       background-color: $blue-dark;
@@ -122,6 +107,7 @@ body {
       color: $dark-text-color;
       filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.4));
     }
+
     .content-bar {
       fill: $blue;
     }
@@ -135,9 +121,11 @@ body {
       fill: $blue-dark;
       filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.4));
     }
+
     .hi-svg {
       fill: $white-dark;
     }
+
     .hi-svg-blue {
       fill: $blue;
       filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.4));
@@ -147,6 +135,7 @@ body {
       background-color: $blue;
       color: $black;
     }
+
     .icon-ligthDark:hover {
       filter: drop-shadow(0px 2px 11px rgba(196, 196, 196, 0.4));
     }

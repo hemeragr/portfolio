@@ -1,8 +1,8 @@
+@import "../../scss/global.scss";
+
 .skill-bar {
-  width: 95px;
-  padding-left: 12px;
-  //background-color: rgb(246, 211, 85);
-  // border-radius: 25px;
+  width: $skill-bar-width;
+  padding-left: $skill-bar-padding-left;
 }
 
 .content-bar {

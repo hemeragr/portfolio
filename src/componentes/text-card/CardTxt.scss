@@ -2,18 +2,18 @@
 
 .card-skills {
   box-sizing: border-box;
-  padding: 5px 30px;
-  background-color: $grey;
-  width: 500px;
-  margin: 30px;
-  border: $border-tj;
-  box-shadow: $tarjet-shadow-light;
-  border-radius: 40px 40px 0px 40px;
+  padding: $card-padding-small $card-padding-large;
+  background-color: $card-bg-color;
+  width: $card-width;
+  margin: $card-margin;
+  border: $card-border;
+  box-shadow: $card-box-shadow;
+  border-radius: $card-border-radius;
 }
 
 .card-title {
   margin: auto;
-  padding-left: 10px;
+  padding-left: $card-title-padding-left;
   display: flex;
-  border-bottom: 4px solid $black;
+  border-bottom: $card-title-border-bottom;
 }
