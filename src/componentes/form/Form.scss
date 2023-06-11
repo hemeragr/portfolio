@@ -6,6 +6,11 @@
   font-size: $font-medium;
 }
 
+.txt-input {
+  font-family: $font-raleway;
+  font-size: $font-small;
+}
+
 $form-text-color: $black;
 $form-border-color: $grey;
 $form-input-height: 40px;
@@ -29,7 +34,6 @@ $form-button-border-radius: 4px;
 label {
   display: block;
   margin-bottom: 15px;
-  color: $form-text-color;
   padding-left: 10px;
 }
 

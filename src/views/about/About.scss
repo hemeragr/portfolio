@@ -3,6 +3,7 @@
 
 .body-about {
   width: 100%;
+  min-height: 100vh;
   margin-top: 50px;
   margin-bottom: 140px;
   display: flex;
@@ -16,14 +17,14 @@
   width: 100%;
   max-width: 800px;
 }
-.icon-text{
- padding: 2px;
+.icon-text {
+  padding: 2px;
 }
 .ornament {
   color: $grey;
 }
 
-.title{
+.title {
   margin-bottom: -10px;
 }
 .container-paragraph {

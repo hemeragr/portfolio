@@ -10,20 +10,20 @@ import Work from "../icons/MyCode";
 const Nav = () => {
   return (
     <nav className="nav">
-      <NavButton  to="/">
+      <NavButton to="/">
         <Home />
       </NavButton>
-      <NavButton  to="/about">
+      <NavButton to="/about">
         <About />
       </NavButton>
-      <NavButton  to="/work">
+      <NavButton to="/work">
         <Work />
       </NavButton>
-      <NavButton  to="/contact">
-        <Contact />
+      <NavButton to="/skills">
+        <Skills />
       </NavButton>
-      <NavButton  to="/skills">
-        <Skills        />
+      <NavButton to="/contact">
+        <Contact />
       </NavButton>
     </nav>
   );

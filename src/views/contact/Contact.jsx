@@ -1,5 +1,5 @@
 import "./Contact.scss";
-import Svg_hi from "../../componentes/svg-hi/SvgHi";
+import SvgHiBlue from "../../componentes/svg-hi/SvgHiBlue";
 import Footer from "../../componentes/footer-rrss/Footer";
 import Form from "../../componentes/form/Form";
 import hand from "../../assets/hand.svg";
@@ -25,7 +25,7 @@ const Contact = () => {
             </p>
             <p>
               Si quieres llevar tus proyectos al siguiente nivel,
-              <span className="stress">¡estoy aquí para ayudarte!</span>
+              <span className="stress margin">¡estoy aquí para ayudarte!</span>
               <span role="img" aria-label="Cohete">
                 {" "}
                 🚀
@@ -58,7 +58,7 @@ const Contact = () => {
       <section className="content-NavImg-contact">
         <div className="hi-contact">
           {" "}
-          <Svg_hi />
+          <SvgHiBlue />
         </div>
 
         <div className="img-container-contact">

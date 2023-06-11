@@ -15,11 +15,11 @@ const NavHome = () => {
       <NavButton to="/work">
         <Work />
       </NavButton>
-      <NavButton to="/contact">
-        <Contact />
-      </NavButton>
       <NavButton to="/skills">
         <Skills />
+      </NavButton>
+      <NavButton to="/contact">
+        <Contact />
       </NavButton>
     </nav>
   );

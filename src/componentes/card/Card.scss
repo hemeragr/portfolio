@@ -14,8 +14,6 @@ margin: 20px;
   box-shadow: $tarjet-shadow-light;
   border-radius: 40px;
 
-  &-body {
-  }
 
   &-title {
     font-family: $font-roboto;
@@ -30,10 +28,7 @@ margin: 20px;
   }
 }
 
-.btn {
-  background-color: $black;
-  border: $black;
-}
+
 
 .link {
   all: unset;

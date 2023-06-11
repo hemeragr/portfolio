@@ -22,8 +22,11 @@ function ContactForm() {
   return (
     <form className="form-contact" onSubmit={handleSubmit}>
       <div className="camp">
-        <label htmlFor="nombre">Nombre</label>
+        <label className="form-text" htmlFor="nombre">
+          Nombre
+        </label>
         <input
+          className="txt-input"
           type="text"
           id="nombre"
           name="nombre"
@@ -34,8 +37,11 @@ function ContactForm() {
       </div>
 
       <div className="camp">
-        <label htmlFor="email">Correo electrónico</label>
+        <label className="form-text" htmlFor="email">
+          Correo electrónico
+        </label>
         <input
+          className="txt-input"
           type="email"
           id="email"
           name="email"
@@ -46,8 +52,11 @@ function ContactForm() {
       </div>
 
       <div className="camp-text">
-        <label htmlFor="mensaje">Cuentame tus ideas...</label>
+        <label className="form-text" htmlFor="mensaje">
+          Cuentame tus ideas...
+        </label>
         <textarea
+          className=" txt-input"
           id="mensaje"
           name="mensaje"
           value={mensaje}

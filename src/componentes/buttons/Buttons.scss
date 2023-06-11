@@ -26,13 +26,10 @@ $transition: background-color 0.3s ease;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-
 }
 
 .button-whit-logo:hover {
   background-color: $hover-btn;
-  
 }
 
 .button-send {
@@ -51,12 +48,9 @@ $transition: background-color 0.3s ease;
   color: $white;
 }
 
-
-
 .icon {
   width: $sice-icon;
   height: $sice-icon;
-
 }
 
 .btn-ld {
@@ -66,3 +60,11 @@ $transition: background-color 0.3s ease;
   height: $btn-sice-ld;
   margin-top: -40px;
 }
+
+.btn-night {
+  border-radius: 50%;
+  all: unset;
+  cursor: pointer;
+}
+
+

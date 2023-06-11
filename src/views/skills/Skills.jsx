@@ -107,15 +107,15 @@ const TX = [
 const Skills = () => {
   return (
     <div className="body-home">
-      <section className="content-home">
+      <section className="content-skills">
         <main>
-          <div className="title">
+          <div className="title tilte-skills">
             <span className="ornament">&lt;h2&gt;</span>
             <h2 className="headers header-h2">Habilidades</h2>
             <span className="ornament">&lt;/h2&gt;</span>
           </div>
-          <span className="ornament">&lt;p&gt;</span>
-          <p className="paragraph">
+          <span className="ornament margin-skills">&lt;p&gt;</span>
+          <p className="paragraph txt-skills">
             Soy una persona que disfruta del{" "}
             <span className="stress">trabajo en equipo </span> y me encanta
             animar el ambiente con alguna que otra broma.{" "}
@@ -151,7 +151,7 @@ const Skills = () => {
           </p>
           <span className="ornament">&lt;/p&gt;</span>
 
-          <div>
+          <div className="content-skills-bars">
             <span className="ornament">&lt;div&gt;</span>
             <div className="columns-bar">
               {IC.map((object) => (

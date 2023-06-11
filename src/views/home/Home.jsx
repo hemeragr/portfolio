@@ -1,7 +1,5 @@
-import React from "react";
 import "./Home.scss";
 import Svg_hi from "../../componentes/svg-hi/SvgHi";
-import face from "../../assets/face.svg";
 import NavHome from "../../componentes/nav/NavHome";
 import SvgHome from "../../componentes/svg-home/SvgHome";
 

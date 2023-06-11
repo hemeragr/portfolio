@@ -1,14 +1,44 @@
 .columns-bar {
   columns: 4;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content-skills-bars {
+  margin-top: 20px;
+}
+.tilte-skills {
+  margin-bottom: 20px;
+}
+.txt-skills {
+  margin-left: 30px;
 }
 
 .content-cards {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 0;
 }
 
 .content-cardText {
   display: flex;
+}
+
+.content-skills {
+  flex: 1;
+  width: 50%;
+}
+
+.content-cards {
+  flex: 1;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .content-home,
+  .content-cards {
+    width: 100%;
+  }
 }

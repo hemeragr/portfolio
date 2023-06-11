@@ -2,7 +2,7 @@ const svgHi = () => {
   return (
     <>
       <svg
-        className="hi-svg"
+        className="hi-svg-blue"
         viewBox="0 0 177 100"
         xmlns="http://www.w3.org/2000/svg"
       >
