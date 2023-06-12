@@ -1,13 +1,52 @@
-$nav-flex-direction: row;
-$nav-z-index: 99;
-$button-z-index: 99;
-
+@import "../../scss/global.scss";
 .nav {
   display: flex;
-  flex-direction: $nav-flex-direction;
-  z-index: $nav-z-index;
+  flex-direction: row;
+  z-index: 99;
 }
 
 .button-whit-logo {
-  z-index: $button-z-index;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: width 1s;
+
+  svg {
+    transition: opacity 0s;
+  }
+
+  .button-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.8s;
+    font-family: $font-raleway;
+    color: $white;
+  }
+
+  .button-text:active {
+    color: $grey-dark;
+  }
+
+  &.hovered {
+    width: 150px;
+    border-radius: 45px;
+
+    svg {
+      opacity: 0;
+    }
+
+    .button-text {
+      opacity: 1;
+    }
+  }
 }

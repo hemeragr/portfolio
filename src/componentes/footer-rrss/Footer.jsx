@@ -7,28 +7,26 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div>
-      <nav className="nav-footer">
-        <span className="content-app">
-          <Link className="app__link" to="https://github.com/hemeragr">
-            <GitHub className="app-icon" />
-          </Link>
-        </span>
-        <span className="content-app">
-          <Link className="app__link" to="https://codepen.io/hemeragr">
-            <CodePen className="app-icon" />
-          </Link>
-        </span>
-        <span className="content-app">
-          <Link
-            className="app__link"
-            to="https://www.linkedin.com/in/hemera-guerrero-141119274/"
-          >
-            <Linkedin className="app-icon" />
-          </Link>
-        </span>
-      </nav>
-    </div>
+    <nav className="nav-footer">
+      <span className="content-app">
+        <Link className="app__link" to="https://github.com/hemeragr">
+          <GitHub className="app-icon" />
+        </Link>
+      </span>
+      <span className="content-app">
+        <Link className="app__link" to="https://codepen.io/hemeragr">
+          <CodePen className="app-icon" />
+        </Link>
+      </span>
+      <span className="content-app">
+        <Link
+          className="app__link"
+          to="https://www.linkedin.com/in/hemera-guerrero-141119274/"
+        >
+          <Linkedin className="app-icon" />
+        </Link>
+      </span>
+    </nav>
   );
 };
 
