@@ -13,10 +13,10 @@ const Nav = () => {
       <NavButton to="/" text="Vuelta a casa">
         <Home />
       </NavButton>
-      <NavButton to="/about" text="Descubreme">
+      <NavButton to="/about" text="Descúbreme">
         <About />
       </NavButton>
-      <NavButton to="/work" text="My codigo">
+      <NavButton to="/work" text="My código">
         <Work />
       </NavButton>
       <NavButton to="/skills" text="Mis habilidades">

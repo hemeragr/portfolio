@@ -9,6 +9,9 @@ body {
   .Svg-about {
     fill: $grey;
   }
+  .icon {
+    fill: $white;
+  }
 
   .hi-svg-blue {
     fill: $orange;
@@ -140,6 +143,9 @@ body {
 
     .icon-ligthDark:hover {
       filter: drop-shadow(0px 2px 11px rgba(196, 196, 196, 0.4));
+    }
+    .icon {
+      fill: $black;
     }
 
     .card {
