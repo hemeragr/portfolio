@@ -9,15 +9,15 @@ const Card = ({ className, cita }) => {
         <p className="card-text paragraph ">{cita.description}</p>
         <p className=" paragraph">{cita.skills_used}</p>
         <div className="content-footerCard">
-        <a className="link" href={cita.Github}>
-          <GithubBtn />
-        </a>
-        <button href="#" className="btn-card button-send">
-          {" "}
-          <a href={cita.url} className="link">
-            &gt;
+          <a className="link" href={cita.Github}>
+            <GithubBtn />
           </a>
-        </button>
+          <button href="#" className="btn-card button-send">
+            {" "}
+            <a href={cita.url} className="link">
+              &gt;
+            </a>
+          </button>
         </div>
       </div>
     </div>

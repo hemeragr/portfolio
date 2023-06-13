@@ -16,27 +16,37 @@ const PROJECTS = [
     description:
       "Plataforma dedicada a la alimentación basada en plantas y estilo de vida consciente, donde se ofrecen soluciones prácticas y deliciosas para aquellos que buscan adoptar este tipo de vida. A través de recetas veganas, productos y recomendaciones de restaurantes.",
     skills_used: "#CSS #PHP #Wordpress ",
-    url: "",
+    github: "",
+    url: "https://esatdev.com/2022/hemera/bocaverda/",
   },
   {
-    work: "Contador",
-    description: "Trabajo figma",
-    skills_used: "#js #react",
+    work: "Cronometro",
+    description:
+      "Proyecto realizado para afianzar lo aprendido en las primeras clases, un contados de timepo.",
+    skills_used: "#JS #HTML #CSS ",
+    github: "https://github.com/hemeragr/proyect_cronometro",
+    url: "https://esatdev.com/2022/hemera/bocaverda/",
   },
   {
-    work: "Trabajo 4",
-    description: "Trabajo html y css",
+    work: "GimWeb",
+    description: "https://github.com/hemeragr/gymWebsite",
     skills_used: "#vue #figma",
+    github: "https://github.com/hemeragr/gymWebsite",
+    url: "https://esatdev.com/2022/hemera/bocaverda/",
   },
   {
     work: "Trabajo 5",
     description: "Trabajo calculadora",
     skills_used: "#css #sumas",
+    github: "https://github.com/hemeragr/proyect_cronometro",
+    url: "https://esatdev.com/2022/hemera/bocaverda/",
   },
   {
     work: "Trabajo 6",
     description: "Trabajo super chulo hecho wordpress",
     skills_used: "#php #wprdpress",
+    github: "https://github.com/hemeragr/proyect_cronometro",
+    url: "https://esatdev.com/2022/hemera/bocaverda/",
   },
 ];
 
