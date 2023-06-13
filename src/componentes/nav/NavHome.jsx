@@ -9,10 +9,10 @@ import Work from "../icons/MyCode";
 const NavHome = () => {
   return (
     <nav className="nav">
-      <NavButton to="/about" text="Descubreme">
+      <NavButton to="/about" text="Descúbreme">
         <About />
       </NavButton>
-      <NavButton to="/work" text="Mi codigo">
+      <NavButton to="/work" text="Mi código">
         <Work />
       </NavButton>
       <NavButton to="/skills" text="Mis habilidades">

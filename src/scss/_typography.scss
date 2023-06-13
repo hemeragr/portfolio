@@ -15,13 +15,17 @@ $font-bold: 700;
 
 //Font size
 
-$font-xx-large: 160px;
-$font-x-large: 100px;
+$font-xxx-large: 160px;
+$font-xx-large: 140px;
+$font-x-large: 120px;
+$font-medium-large: 100px;
+$font-s-larger: 70px;
 $font-larger: 35px;
 $font-large: 30px;
 $font-medium: 24px;
 $font-small: 18px;
 $font-smaller: 16px;
+$font-x-small: 12px;
 
 .headers {
   font-family: $font-roboto;
@@ -40,10 +44,10 @@ $font-smaller: 16px;
   font-weight: $font-bold;
 }
 .header-h2-ligth {
-  font-size: $font-x-large;
   font-weight: $font-extraLight;
-  padding-left: 200px;
-  margin-top: -70px;
+  padding-left: 100px;
+  margin-top: -10px;
+  font-size: $font-medium;
 }
 
 .surname {
@@ -104,4 +108,200 @@ $font-smaller: 16px;
   font-weight: $font-regular;
   color: $black;
   font-size: $font-medium;
+}
+
+// Media Queries
+
+@media screen and (max-width: 900px) {
+  .header-h1 {
+    font-size: $font-larger; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .header-h2 {
+    font-size: $font-medium; // Tamaño de fuente recomendado para dispositivos móviles
+    // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .header-h2-light {
+    font-size: $font-medium;
+    margin-top: 0;
+  }
+
+  .surname {
+    font-size: $font-larger;
+    padding-left: 50px;
+    margin-top: -25px; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .subtitle {
+    font-size: $font-smaller; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .paragraph {
+    font-size: $font-x-small; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .paragraph-small {
+    font-size: $font-small; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .text-btn {
+    font-size: $font-medium; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .ornament {
+    font-size: $font-small; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .header-h3 {
+    font-size: $font-medium; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+
+  .text.form {
+    font-size: $font-medium; // Tamaño de fuente recomendado para dispositivos móviles
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .header-h1 {
+    font-size: $font-x-large; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .header-h2 {
+    font-size: $font-larger; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .header-h2-ligth {
+    font-size: $font-larger;
+    margin-top: -20px;
+  }
+
+  .surname {
+    font-size: $font-x-large;
+    padding-left: 90px;
+    margin-top: -70px; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .subtitle {
+    font-size: $font-small; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .paragraph {
+    font-size: $font-smaller; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .paragraph-small {
+    font-size: $font-small; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .text-btn {
+    font-size: $font-medium; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .ornament {
+    font-size: $font-small; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .header-h3 {
+    font-size: $font-medium; // Tamaño de fuente recomendado para pantallas medianas
+  }
+
+  .text.form {
+    font-size: $font-medium; // Tamaño de fuente recomendado para pantallas medianas
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header-h1 {
+    font-size: $font-medium-large; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .header-h2 {
+    font-size: $font-s-larger; // Tamaño de fuente recomendado para pantallas grandes
+  }
+  .header-h2-ligth {
+    font-size: $font-s-larger;
+    margin-top: -40px;
+  }
+
+  .surname {
+    font-size: $font-medium-large;
+    margin-top: -60px;
+    padding-left: 70px; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .subtitle {
+    font-size: $font-larger; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .paragraph {
+    font-size: $font-smaller; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .paragraph-small {
+    font-size: $font-small; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .text-btn {
+    font-size: $font-large; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .ornament {
+    font-size: $font-small; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .header-h3 {
+    font-size: $font-large; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .text.form {
+    font-size: $font-medium; // Tamaño de fuente recomendado para pantallas grandes
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .header-h1 {
+    font-size: $font-xxx-large; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .header-h2 {
+    font-size: $font-medium-large; // Tamaño de fuente recomendado para pantallas grandes
+  }
+  .header-h2-ligth {
+    font-size: $font-medium-large;
+  }
+
+  .surname {
+    font-size: $font-xxx-large;
+    margin-top: -120px;
+    padding-left: 150px; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .subtitle {
+    font-size: $font-larger; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .paragraph {
+    font-size: $font-smaller; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .paragraph-small {
+    font-size: $font-small; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .text-btn {
+    font-size: $font-large; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .ornament {
+    font-size: $font-small; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .header-h3 {
+    font-size: $font-large; // Tamaño de fuente recomendado para pantallas grandes
+  }
+
+  .text.form {
+    font-size: $font-medium; // Tamaño de fuente recomendado para pantallas grandes
+  }
 }

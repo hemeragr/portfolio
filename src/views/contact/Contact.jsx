@@ -43,6 +43,9 @@ const Contact = () => {
                 📩💫
               </span>
             </p>
+            <a className=" btn-cv" href="cv-2023.pdf" download>
+              Descarga mi CV
+            </a>
           </p>
 
           <span className="ornament">&lt;/p&gt;</span>

@@ -95,12 +95,12 @@ const TX = [
   {
     title: "Frontend",
     paragraph:
-      "Como front-end, mi pasión radica en romper la estática de los sitios web y hacer que cobren vida. Disfruto enormemente añadiendo ese toque mágico que transforma las páginas en experiencias interactivas y cautivadoras. Mi enfoque se basa en escribir un código limpio y eficiente que permita la fluidez y funcionalidad necesarias.",
+      "Como front-end, me entusiasma romper la estática de los sitios web y hacer que cobren vida. Disfruto enormemente añadiendo ese toque mágico que transforma las páginas en experiencias interactivas y cautivadoras. Mi enfoque se basa en escribir un código limpio y eficiente que permita la fluidez y funcionalidad necesarias.",
   },
   {
     title: "UX/UI",
     paragraph:
-      "Como front-end, mi pasión radica en romper la estática de los sitios web y hacer que cobren vida. Disfruto enormemente añadiendo ese toque mágico que transforma las páginas en experiencias interactivas y cautivadoras. Mi enfoque se basa en escribir un código limpio y eficiente que permita la fluidez y funcionalidad necesarias.",
+      "Como diseñadora de experiencias, me encanta crear diseños que hablan por sí solos, transmitiendo mensajes claros y cautivadores. Crear enfoques limpios, minimalistas y simples que logran un impacto visual impactante. Mi objetivo es cautivar a través del diseño y dejar una impresión duradera en quienes interactúan con mis webs.",
   },
 ];
 

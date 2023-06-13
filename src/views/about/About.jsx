@@ -10,7 +10,7 @@ const About = () => {
         <div className="title">
           <span className="ornament">&lt;h2&gt;</span>
           <h2 className="headers header-h2">Yo, Yo misma</h2>
-          <h2 className="headers header-h2-ligth  secondtitle">y mis cosas</h2>
+          <h2 className="headers header-h2-ligth ">y mis cosas</h2>
           <span className="ornament">&lt;/h2&gt;</span>
         </div>
         <div className="container-paragraph">

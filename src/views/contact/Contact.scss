@@ -1,3 +1,5 @@
+@import "../../scss/global.scss";
+
 .body-contact {
   width: 100%;
   margin-top: 60px;
@@ -56,4 +58,19 @@
 
 .content-text-contact {
   width: 100%;
+}
+
+.btn-cv {
+  font-family: $font-raleway;
+  font-size: $font-smaller;
+  text-decoration: none;
+  color: $white;
+  padding: 5px 15px 10px 15px;
+  background-color: $orange;
+  border-radius: 30px;
+}
+
+.btn-cv:hover {
+  color: $grey-dark;
+  background-color: $orange-dark;
 }

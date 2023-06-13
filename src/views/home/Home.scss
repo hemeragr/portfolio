@@ -55,3 +55,106 @@ $Svg-home-max-width: 94%;
   max-width: $Svg-home-max-width;
   height: auto;
 }
+/* Variables */
+
+// ...
+
+/* Estilos generales */
+
+.body-home {
+  // Estilos generales
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: $body-home-gap;
+}
+
+.container-subtitle {
+  // Estilos generales
+  margin-top: $container-subtitle-margin-top;
+}
+
+.content-hi {
+  // Estilos generales
+  width: $content-hi-width;
+}
+
+.content-img-home {
+  // Estilos generales
+}
+
+.footer {
+  // Estilos generales
+}
+
+.img-container-home {
+  // Estilos generales
+  max-width: 100%;
+  width: $img-container-home-max-width;
+  height: auto;
+}
+
+.Svg-home {
+  // Estilos generales
+  max-width: $Svg-home-max-width;
+  height: auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+  // Estilos para dispositivos móviles (hasta 767px)
+  .body-home {
+    flex-direction: column;
+    // Estilos específicos para dispositivos móviles
+  }
+
+  .container-subtitle {
+    // Estilos específicos para dispositivos móviles
+    font-size: 1.2em; // Tamaño de fuente más pequeño para dispositivos móviles
+  }
+
+  .content-hi {
+    // Estilos específicos para dispositivos móviles
+    width: 100%;
+    font-size: 1em; // Tamaño de fuente más pequeño para dispositivos móviles
+  }
+
+  // ...
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  // Estilos para pantallas medianas (de 768px a 1023px)
+  .body-home {
+    // Estilos específicos para pantallas medianas
+  }
+
+  .container-subtitle {
+    // Estilos específicos para pantallas medianas
+    font-size: 1.5em; // Tamaño de fuente más grande para pantallas medianas
+  }
+
+  .content-hi {
+    // Estilos específicos para pantallas medianas
+    font-size: 1.2em; // Tamaño de fuente más grande para pantallas medianas
+  }
+
+  // ...
+}
+
+@media screen and (min-width: 1024px) {
+  // Estilos para pantallas más grandes (1024px en adelante)
+  .body-home {
+    // Estilos específicos para pantallas más grandes
+  }
+
+  .container-subtitle {
+    // Estilos específicos para pantallas más grandes
+    font-size: 2em; // Tamaño de fuente más grande para pantallas más grandes
+  }
+
+  .content-hi {
+    // Estilos específicos para pantallas más grandes
+    font-size: 1.5em; // Tamaño de fuente más grande para pantallas más grandes
+  }
+}
