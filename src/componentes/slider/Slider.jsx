@@ -4,17 +4,22 @@ import Card from "../card/Card";
 
 const PROJECTS = [
   {
-    work: "Trabajo 1",
-    description: "Trabajo about",
-    skills_used: "#css #html #js",
+    work: "One page",
+    description:
+      " Mi primer proyecto del postgrado, titulado About me, ofrece la oportunidad de conocerme más a fondo, ya que cuenta con una introducción más detallada sobre mi persona, mis estudios, habilidades y gustos.",
+    skills_used: "#CSS #HTML #JS",
+    github: "https://github.com/hemeragr/proyectAlpha",
+    url: "https://about-hemeragr.netlify.app/",
   },
   {
-    work: "Trabajo 2",
-    description: "Trabajo super chulo hecho con react",
-    skills_used: "#css #html",
+    work: "BocaVerda",
+    description:
+      "Plataforma dedicada a la alimentación basada en plantas y estilo de vida consciente, donde se ofrecen soluciones prácticas y deliciosas para aquellos que buscan adoptar este tipo de vida. A través de recetas veganas, productos y recomendaciones de restaurantes.",
+    skills_used: "#CSS #PHP #Wordpress ",
+    url: "",
   },
   {
-    work: "Trabajo 3",
+    work: "Contador",
     description: "Trabajo figma",
     skills_used: "#js #react",
   },
@@ -41,7 +46,7 @@ const Slider = () => {
       <Swiper
         // install Swiper modules
         spaceBetween={10}
-        slidesPerView={5}
+        slidesPerView={4}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >

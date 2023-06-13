@@ -16,11 +16,11 @@ const Nav = () => {
       <NavButton to="/about" text="Descúbreme">
         <About />
       </NavButton>
-      <NavButton to="/work" text="Mi código">
-        <Work />
-      </NavButton>
       <NavButton to="/skills" text="Mis habilidades">
         <Skills />
+      </NavButton>
+      <NavButton to="/work" text="Mi código">
+        <Work />
       </NavButton>
       <NavButton to="/contact" text="Salúdame">
         <Contact />

@@ -54,11 +54,18 @@ body {
     color: $orange;
   }
 
+  .card-text {
+    border-bottom: 2px solid $black;
+  }
+
   &.is-night-mode {
     background-color: $dark-background-color;
 
     .headers {
       color: $dark-text-color;
+    }
+    .card-text {
+      border-bottom: 2px solid $white-dark;
     }
 
     .paragraph,
