@@ -36,9 +36,9 @@ const PROJECTS = [
     url: "https://gym-web-project-basic.netlify.app/",
   },
   {
-    work: "Trabajo 5",
-    description: "Trabajo calculadora",
-    skills_used: "#css #sumas",
+    work: "POKÉDEX",
+    description: "Trabajo de clase, usamos la API de Pokémon para hacer llamadas y asi coger la información y usarla para lo qu encesitemos",
+    skills_used: "#CSS #JSX",
     github: "https://github.com/hemeragr/proyect_cronometro",
     url: "https://esatdev.com/2022/hemera/bocaverda/",
   },
