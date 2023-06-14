@@ -5,7 +5,6 @@ $columns-bar-padding-bottom: 20px;
 $content-skills-bars-margin-top: 20px;
 $tilte-skills-margin-bottom: 20px;
 $txt-skills-margin-left: 30px;
-$content-cards-padding-top: 100px;
 $content-cards-z-index: 0;
 
 /* Estilos generales */
@@ -17,6 +16,7 @@ $content-cards-z-index: 0;
 
 .content-skills-bars {
   margin-top: $content-skills-bars-margin-top;
+  margin-bottom: 30px;
 }
 
 .tilte-skills {
@@ -28,12 +28,14 @@ $content-cards-z-index: 0;
 }
 
 .content-cards {
-  padding-top: $content-cards-padding-top;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: $content-cards-z-index;
+  flex: 1;
+  width: 50%;
 }
 
 .content-cardText {
@@ -45,14 +47,6 @@ $content-cards-z-index: 0;
   width: 50%;
 }
 
-.content-cards {
-  flex: 1;
-  width: 50%;
-}
-
-@media (max-width: 768px) {
-  .content-home,
-  .content-cards {
-    width: 100%;
-  }
+.contents {
+  margin-top: 150px;
 }

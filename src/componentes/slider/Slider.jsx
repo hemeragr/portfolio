@@ -29,10 +29,11 @@ const PROJECTS = [
   },
   {
     work: "GimWeb",
-    description: "https://github.com/hemeragr/gymWebsite",
-    skills_used: "#vue #figma",
+    description:
+      "Web de un gimnasio para practicar conocimientos basicos adquiridos en clase",
+    skills_used: "#JS #HTML #CSS",
     github: "https://github.com/hemeragr/gymWebsite",
-    url: "https://esatdev.com/2022/hemera/bocaverda/",
+    url: "https://gym-web-project-basic.netlify.app/",
   },
   {
     work: "Trabajo 5",

@@ -17,7 +17,7 @@ const Work = () => {
             </div>
           </main>
 
-          <footer>
+          <footer className="footer-work">
             <Footer />
           </footer>
         </section>

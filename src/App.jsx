@@ -42,7 +42,7 @@ function App() {
       </header>
       <Outlet />
       <footer className="footer-app">
-        <div className="container-span">
+        <div className="container-span-footer">
           <span className="ornament space2">&lt;/body&gt;</span>
           <br></br>
           <span className="ornament space1">&lt;/html&gt;</span>
